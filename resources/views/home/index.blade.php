@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title','sub page title')
+@section('title','sub page title github')
 
 @section('sidebar')
     @parent
