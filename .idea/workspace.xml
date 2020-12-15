@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="index changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,12 +185,35 @@
       <workItem from="1607772859872" duration="182000" />
       <workItem from="1607773055079" duration="344000" />
       <workItem from="1607773428146" duration="7165000" />
-      <workItem from="1607782937550" duration="260000" />
+      <workItem from="1607782937550" duration="1060000" />
     </task>
+    <task id="LOCAL-00001" summary="index changed">
+      <created>1607783386701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607783386701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="index changed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="407" key="#Composer" timestamp="1607772645017">
@@ -185,6 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1607783185487" />
+    <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607783402405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="432" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1607783402405" />
     <state width="938" height="281" key="GridCell.Tab.0.bottom" timestamp="1607773042745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,5 +256,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607783173380" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607783396260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607783396260" />
   </component>
 </project>
