@@ -33,14 +33,14 @@
             @include('home._header')
             @include('home._category')
 
-            yy
+        yyy
 
         </div>
     </div>
 </div>
 
 @section('content')
-    içerik alanı
+
 @show
 
 @include('home._footer')

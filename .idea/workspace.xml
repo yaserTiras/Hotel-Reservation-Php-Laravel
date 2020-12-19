@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="index changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="05a89779-79c5-42a9-84cb-71bb95079d09" />
+    <option name="defaultAccountId" value="1b63658f-8104-4fb1-9153-35280964973e" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -181,6 +182,11 @@
       <workItem from="1607773428146" duration="7165000" />
       <workItem from="1607782937550" duration="1060000" />
       <workItem from="1608044002504" duration="1792000" />
+      <workItem from="1608046193011" duration="170000" />
+      <workItem from="1608046381962" duration="112000" />
+      <workItem from="1608223448525" duration="94000" />
+      <workItem from="1608407156880" duration="735000" />
+      <workItem from="1608412838684" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -224,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608045041561</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="index changed">
+      <created>1608046214043</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608046214043</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,13 +334,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607779165098" />
-    <state x="90" y="172" key="SettingsEditor" timestamp="1608045715717">
+    <state x="90" y="154" key="SettingsEditor" timestamp="1608413101956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="90" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608045715717" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608045088965">
+    <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608413101956" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608046218996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608045088965" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608046218996" />
   </component>
 </project>
