@@ -1,6 +1,17 @@
 @extends('layouts.home')
 
-@section('title','sub page title github')
+@section('title','laravel otel rezervasyon github')
 
-@section('sidebar')
-    @parent
+@section('description')
+    türkiyenin en güvenilir oteli
+@endsection
+
+
+@section('keywords','oda,banyo,servis')
+@section('author')
+
+
+
+@section('content')
+
+@endsection

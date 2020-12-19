@@ -33,7 +33,6 @@
             @include('home._header')
             @include('home._category')
 
-        yyy
 
         </div>
     </div>
