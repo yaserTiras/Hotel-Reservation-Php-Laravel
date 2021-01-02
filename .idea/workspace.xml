@@ -206,7 +206,7 @@
       <workItem from="1609075097886" duration="11835000" />
       <workItem from="1609234966849" duration="2670000" />
       <workItem from="1609237699918" duration="700000" />
-      <workItem from="1609602813133" duration="18357000" />
+      <workItem from="1609602813133" duration="18576000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -285,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609623786837</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="category ve delete işlemi yapıldı">
+      <created>1609623867801</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609623867801</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,10 +364,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="185" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609612461021" />
-    <state x="471" y="7" key="CommitChangelistDialog2" timestamp="1609623780025">
+    <state x="471" y="7" key="CommitChangelistDialog2" timestamp="1609623866795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="7" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609623780025" />
+    <state x="471" y="7" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609623866795" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607783402405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -393,14 +400,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609607779001" />
-    <state x="90" y="154" key="SettingsEditor" timestamp="1608413101956">
+    <state x="90" y="154" key="SettingsEditor" timestamp="1609624082941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608413101956" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609623793870">
+    <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609624082941" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609623946837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609623793870" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609623946837" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
