@@ -5,7 +5,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="" />
+    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/62f8ef4f-cd2f-4b40-a140-a2b5796837be.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/62f8ef4f-cd2f-4b40-a140-a2b5796837be/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccd80fe2-0208-46be-8aa4-fe300aa06033.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccd80fe2-0208-46be-8aa4-fe300aa06033/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2f0b54b-4ac3-459a-89a7-a3f77b10fabd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2f0b54b-4ac3-459a-89a7-a3f77b10fabd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2f0b54b-4ac3-459a-89a7-a3f77b10fabd/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2f0b54b-4ac3-459a-89a7-a3f77b10fabd/storage_v2/_src_/schema/mysql.osA4Bg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/img/avatar-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/img/avatar-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,12 +190,6 @@
       <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\admin" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\fatmatiras\AppData\Roaming\Subversion</configuration>
@@ -206,7 +216,9 @@
       <workItem from="1609075097886" duration="11835000" />
       <workItem from="1609234966849" duration="2670000" />
       <workItem from="1609237699918" duration="700000" />
-      <workItem from="1609602813133" duration="18576000" />
+      <workItem from="1609602813133" duration="19010000" />
+      <workItem from="1609764289701" duration="2414000" />
+      <workItem from="1609768648105" duration="1678000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -292,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609623867801</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="category ve delete işlemi yapıldı">
+      <created>1609624167906</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609624167906</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,10 +383,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="185" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609612461021" />
-    <state x="471" y="7" key="CommitChangelistDialog2" timestamp="1609623866795">
+    <state x="471" y="7" key="CommitChangelistDialog2" timestamp="1609624166757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="7" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609623866795" />
+    <state x="471" y="7" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609624166757" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607783402405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -404,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609624082941" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609623946837">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609624181419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609623946837" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609624181419" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
