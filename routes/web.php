@@ -27,7 +27,7 @@ Route::get('/',function (){
 Route::get('/home', [HomeController::class, 'index']);
 
 // Admin
-Route::middleware('auth')->prefix('admin')->group(function (){
+Route::middleware('auth')->prefix('admin')->group(function () {
 
     Route::get('/', [\App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin_home');
     Route::get('category', [\App\Http\Controllers\Admin\CategoryController::class, 'index'])->name('admin_category');
@@ -38,6 +38,21 @@ Route::middleware('auth')->prefix('admin')->group(function (){
     Route::get('category/edit/{id}', [\App\Http\Controllers\Admin\CategoryController::class, 'edit'])->name('admin_category_edit');
     Route::get('category/delete/{id}', [\App\Http\Controllers\Admin\CategoryController::class, 'destroy'])->name('admin_category_delete');
     Route::get('category/show', [\App\Http\Controllers\Admin\CategoryController::class, 'show'])->name('admin_category_show');
+
+
+    #hotel
+    Route::prefix('hotel')->group(function () {
+        //route assigned name "admin.users"
+        Route::get('/', [\App\Http\Controllers\Admin\HotelController::class, 'index'])->name('admin_hotels');
+        Route::get('create', [\App\Http\Controllers\Admin\HotelController::class, 'create'])->name('admin_hotel_add');
+        Route::post('store', [\App\Http\Controllers\Admin\HotelController::class, 'store'])->name('admin_hotel_store');
+        Route::get('edit/{id}', [\App\Http\Controllers\Admin\HotelController::class, 'edit'])->name('admin_hotel_edit');
+        Route::post('update/{id}', [\App\Http\Controllers\Admin\HotelController::class, 'update'])->name('admin_hotel_update');
+        Route::get('delete/{id}', [\App\Http\Controllers\Admin\HotelController::class, 'destroy'])->name('admin_hotel_delete');
+        Route::post('show', [\App\Http\Controllers\Admin\HotelController::class, 'show'])->name('admin_hotel_show');
+
+
+    });
 
 });
 
