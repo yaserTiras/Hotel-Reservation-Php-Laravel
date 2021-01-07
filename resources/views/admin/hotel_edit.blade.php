@@ -3,11 +3,7 @@
 
 @section('title','Edit Hotel')
 @section('javascript')
-
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- include summernote css/js -->
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/24.0.0/classic/ckeditor.js"></script>
 
 @endsection
 
@@ -26,7 +22,7 @@
         <div class="block">
 
             <div class="block-body">
-                <form action="{{route('admin_hotel_update',['id'=>$data->id])}}" method="post">
+                <form action="{{route('admin_hotel_update',['id'=>$data->id])}}" method="post" enctype="multipart/form-data">
                     @csrf
 
                         <div class="form-group row">
@@ -57,12 +53,18 @@
 
                     <div class="form-group">
                         <label class="form-control-label">Detail</label>
-                        <textarea id="summernote" name="detail">{{$data->detail}}</textarea>
+                        <div id="detail"> </div>
                         <script>
-                            $(document).ready(function() {
-                                $('#summernote').summernote();
-                            });
+                            ClassicEditor
+                                .create( document.querySelector( '#detail' ) )
+                                .then( detail => {
+                                    console.log( detail );
+                                } )
+                                .catch( error => {
+                                    console.error( error );
+                                } );
                         </script>
+
                     </div>
                     <div class="form-group">
                         <label class="form-control-label">Star</label>
@@ -96,6 +98,14 @@
                         <label class="form-control-label">Location</label>
                         <input type="text" name="location" value="{{$data->location}}" class="form-control">
                     </div>
+                    <div class="form-group">
+                        <label class="form-control-label">Image</label>
+                        <input type="file" name="image" value="{{$data->image}}" class="form-control">
+                        @if ($data->image)
+                            <img src="{{ Storage::url($data->image) }}" height="30" alt=" ">
+                        @endif
+                    </div>
+
 
                     <div class="form-group row">
                         <label class="col-sm-3 form-control-label">Status</label>

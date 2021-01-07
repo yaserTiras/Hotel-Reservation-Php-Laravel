@@ -3,8 +3,7 @@
 
 @section('title','Add Hotel')
 
-
-
+      <script src="https://cdn.ckeditor.com/ckeditor5/24.0.0/classic/ckeditor.js"></script>
 
 @section('content')
 
@@ -21,7 +20,7 @@
         <div class="block">
             <div class="title"><strong class="d-block">Add Hotel</strong><span class="d-block"></span></div>
             <div class="block-body">
-                <form action="{{route('admin_hotel_store')}}" method="post">
+                <form action="{{route('admin_hotel_store')}}" method="post" enctype="multipart/form-data">
                     @csrf
 
                         <div class="form-group row">
@@ -52,7 +51,18 @@
 
                     <div class="form-group">
                         <label class="form-control-label">Detail</label>
-                        <input type="text" name="detail" class="form-control">
+                        <div id="detail"> </div>
+                        <script>
+                            ClassicEditor
+                                .create( document.querySelector( '#detail' ) )
+                                .then( detail => {
+                                    console.log( detail );
+                                } )
+                                .catch( error => {
+                                    console.error( error );
+                                } );
+                        </script>
+
                     </div>
                     <div class="form-group">
                         <label class="form-control-label">Star</label>
@@ -86,9 +96,10 @@
                         <label class="form-control-label">Location</label>
                         <input type="text" name="location" class="form-control">
                     </div>
-
-
-
+                    <div class="form-group">
+                        <label class="form-control-label">Image</label>
+                        <input type="file" name="image" class="form-control">
+                    </div>
 
                     <div class="form-group row">
                         <label class="col-sm-3 form-control-label">Status</label>
