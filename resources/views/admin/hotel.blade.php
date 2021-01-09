@@ -53,7 +53,7 @@
 
                     <tr>
                         <th scope="row">{{ $rs->id }}</th>
-                        <td>{{ $rs->category_id }}</td>
+                        <td>{{ $rs->category->title }}</td>
                         <td>{{ $rs->title }}</td>
                         <td>{{ $rs->star }}</td>
                         <td>{{ $rs->address }}</td>
@@ -65,7 +65,7 @@
                         <td>{{ $rs->location }}</td>
                         <td>
                             @if ($rs->image)
-                                <img src="{{ Storage::url($rs->imge) }}" height="30" alt=" ">
+                                <img src="{{ Storage::url($rs->image)}}" height="30" alt="">
                             @endif
                         </td>
 

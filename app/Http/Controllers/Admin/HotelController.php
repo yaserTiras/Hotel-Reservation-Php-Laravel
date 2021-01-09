@@ -118,7 +118,10 @@ class HotelController extends Controller
         $data->location = $request->input('location');
         $data->user_id= Auth::id();
         $data->status = $request->input('status');
-        $data->image = Storage::putFile('images',$request->file('image'));
+        if ($request->file('image')!=null)
+        {
+            $data->image = Storage::putFile('images',$request->file('image'));
+        }
         $data->save();
         return redirect()->route('admin_hotels');
 
