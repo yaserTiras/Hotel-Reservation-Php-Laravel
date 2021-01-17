@@ -10,6 +10,5 @@
 
     @include('admin._content')
 
-
 @endsection
 

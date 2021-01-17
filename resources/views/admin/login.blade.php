@@ -57,7 +57,7 @@
                                     <label for="password" class="label-material">Password</label>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Login</button>
-                            </form><a href="#" class="forgot-pass">Forgot Password?</a><br><small>Do not have an account? </small><a href="register.html" class="signup">Signup</a>
+                            </form><a href="#" class="forgot-pass">Forgot Password?</a><br><small>Do not have an account? </small><a href="/register" class="signup">Signup</a>
                         </div>
                     </div>
                 </div>

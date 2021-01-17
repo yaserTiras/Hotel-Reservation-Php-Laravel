@@ -53,7 +53,7 @@
 
                     <tr>
                         <th scope="row">{{ $rs->id }}</th>
-                        <td>{{ $rs->category->title }}</td>
+                        <td>{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs->category, $rs->category->title)}}</td>
                         <td>{{ $rs->title }}</td>
                         <td>{{ $rs->star }}</td>
                         <td>{{ $rs->address }}</td>

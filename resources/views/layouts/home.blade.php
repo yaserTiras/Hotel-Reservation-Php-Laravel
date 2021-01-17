@@ -7,45 +7,60 @@
     <meta name="keywords" content="@yield('keywords')">
     <meta name="author" content="@yield('author')">
 
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ asset('assets')}}/css/reset.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ asset('assets')}}/css/layout.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ asset('assets')}}/css/style.css" type="text/css" media="all">
-    <script type="text/javascript" src="{{ asset('assets')}}/js/jquery-1.6.js" ></script>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/cufon-yui.js"></script>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/cufon-replace.js"></script>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/Adamina_400.font.js"></script>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/jquery.jqtransform.js" ></script>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/script.js" ></script>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/kwicks-1.5.1.pack.js" ></script>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/atooltip.jquery.js"></script>
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="{{ asset('assets')}}/js/html5.js"></script>
-    <link rel="stylesheet" href="{{ asset('assets')}}/css/ie.css" type="text/css" media="all">
-    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Obaju : e-commerce template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="{{ asset('assets')}}/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="{{ asset('assets')}}/vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="{{ asset('assets')}}/vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="{{ asset('assets')}}/vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="{{ asset('assets')}}/css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="{{ asset('assets')}}/css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
     @yield('css')
     @yield('headerjs')
 </head>
-<body id="page1">
-<div class="bg1">
-    <div class="bg2">
-        <div class="main">
-            @include('home._header')
-            @include('home._category')
+<body >
+
+           @include('home._header')
+           <div id="all">
+               <div id="content">
+                   @include('home._slider')
 
 
-        </div>
-    </div>
-</div>
+               @section('content')
+               </div>
+           </div>
 
-@section('content')
 
-@show
+
+           @show
 
 @include('home._footer')
-@yield('footerjs')
 
-y
+           <!-- JavaScript files-->
+           <script src="{{ asset('assets')}}/vendor/jquery/jquery.min.js"></script>
+           <script src="{{ asset('assets')}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+           <script src="{{ asset('assets')}}/vendor/jquery.cookie/jquery.cookie.js"> </script>
+           <script src="{{ asset('assets')}}/vendor/owl.carousel/owl.carousel.min.js"></script>
+           <script src="{{ asset('assets')}}/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
+           <script src="{{ asset('assets')}}/js/front.js"></script>
+
+           @yield('footerjs')
 
 </body>
 </html>

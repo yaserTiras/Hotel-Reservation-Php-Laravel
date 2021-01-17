@@ -62,7 +62,7 @@
     </div>
 
         <div  class="block" >
-            <h6 class="section-title h1">Tabs</h6>
+            <h6 class="section-title h1">Settings</h6>
             <div >
                 <div >
                     <form action="{{route('admin_setting_update')}}" method="post" enctype="multipart/form-data">
