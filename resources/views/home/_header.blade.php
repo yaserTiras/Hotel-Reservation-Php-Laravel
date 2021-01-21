@@ -13,10 +13,19 @@
                 <div class="col-lg-6 offer mb-3 mb-lg-0"></div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <ul class="menu list-inline mb-0">
-                        <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                    @auth
+                            <li class="list-inline-item"><strong>{{Auth::user()->name}}</strong></li>
+
+                            <li class="list-inline-item"><a href="{{route('logout')}}" >Logout</a></li>
+
+                        @endauth
+                        @guest()
+                        <li class="list-inline-item"><a href="{{route('home_login')}}" >Login</a></li>
                         <li class="list-inline-item"><a href="register.html">Register</a></li>
-                        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-                        <li class="list-inline-item"><a href="#">Recently viewed</a></li>
+                        @endauth
+                        <li class="list-inline-item"><a href="{{route('home_contact')}}">Contact</a></li>
+                        <li class="list-inline-item"><a href="">References</a></li>
+                        <li class="list-inline-item"><a href="{{route('home_faq')}}">Faq</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,53 +71,26 @@
 
                     @include('home._category')
 
-                    <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">Ladies<b class="caret"></b></a>
+                    <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">Pictures<b class="caret"></b></a>
                         <ul class="dropdown-menu megamenu">
                             <li>
                                 <div class="row">
                                     <div class="col-md-6 col-lg-3">
                                         <h5>Clothing</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="category.html" class="nav-link">T-shirts</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Shirts</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Pants</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Accessories</a></li>
-                                        </ul>
+
                                     </div>
-                                    <div class="col-md-6 col-lg-3">
-                                        <h5>Shoes</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Trainers</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Sandals</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Hiking shoes</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Casual</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3">
-                                        <h5>Accessories</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Trainers</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Sandals</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Hiking shoes</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Casual</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Hiking shoes</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Casual</a></li>
-                                        </ul>
-                                        <h5>Looks and trends</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Trainers</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Sandals</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Hiking shoes</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3">
+
+
+                                    <div class="col-md-3 col-lg-4">
                                         <div class="banner"><a href="#"><img src="{{ asset('assets')}}/img/banner.jpg" alt="" class="img img-fluid"></a></div>
-                                        <div class="banner"><a href="#"><img src="{{ asset('assets')}}/img/banner2.jpg" alt="" class="img img-fluid"></a></div>
+
                                     </div>
                                 </div>
                             </li>
+
                         </ul>
                     </li>
+
                     <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">Template<b class="caret"></b></a>
                         <ul class="dropdown-menu megamenu">
                             <li>
@@ -126,11 +108,9 @@
                                     <div class="col-md-6 col-lg-3">
                                         <h5>User</h5>
                                         <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="register.html" class="nav-link">Register / login</a></li>
-                                            <li class="nav-item"><a href="customer-orders.html" class="nav-link">Orders history</a></li>
-                                            <li class="nav-item"><a href="customer-order.html" class="nav-link">Order history detail</a></li>
-                                            <li class="nav-item"><a href="customer-wishlist.html" class="nav-link">Wishlist</a></li>
-                                            <li class="nav-item"><a href="customer-account.html" class="nav-link">Customer account / change password</a></li>
+                                            <li class="nav-item"><a href="{{route('myprofile')}}" class="nav-link">My Account</a></li>
+
+
                                         </ul>
                                     </div>
                                     <div class="col-md-6 col-lg-3">
@@ -158,6 +138,10 @@
                                 </div>
                             </li>
                         </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="#" data-toggle="dropdown" data-hover="" data-delay="200" class="nav-link active" >Campains<b class=""></b></a>
+
                     </li>
                 </ul>
                 <div class="navbar-buttons d-flex justify-content-end">

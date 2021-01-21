@@ -1,11 +1,15 @@
+
 @extends('layouts.home')
 
-@section('title','Hotel')
+@section('title',$setting->title)
+@section('description')
 
-
+    {{$setting->description}}
+    @endsection
+@section('keywords',$setting->keywords)
 @section('content')
 
-
+    @include('home._slider')
     <div id="advantages">
         <div class="container">
             <div class="row mb-4">

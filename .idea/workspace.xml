@@ -6,554 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/credits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/pe-icon-7-stroke.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.blue.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.default.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.green.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.pink.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.red.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.sea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.sea.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.sea.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/css/style.violet.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/css/ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/bg_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/footer_menu_line.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/icon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/icon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/icon3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/icon4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/line_vert1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/line_vert2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/marker_1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page1_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page2_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page2_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page2_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page2_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page3_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page3_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page3_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/page4_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/select.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/title_marker1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/title_marker2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/images/title_marker3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/Adamina_400.font.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/PIE.htc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/atooltip.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/cufon-replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/cufon-yui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/jquery-1.6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/jquery.jqtransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/kwicks-1.5.1.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/eski/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/blog-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/blog-avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/blog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/blog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/blog3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/jumbotron1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/person-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/person-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/person-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/portfolio-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/img/template-mac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/js/front.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/_theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/_3rd-party.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/_demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/_mixins-custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/modules/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/style.blue.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/style.default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/style.green.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/style.pink.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/style.red.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/style.sea.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/scss/style.violet.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery.cookie/MIT-LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery.cookie/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/images/layers-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/images/layers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/images/marker-icon-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/images/marker-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/images/marker-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/leaflet-src.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/leaflet-src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/leaflet/leaflet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/css/lightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/js/lightbox-plus-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/js/lightbox-plus-jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/lightbox2/js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMPS/yeni template/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.sea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/css/ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/bg_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/footer_menu_line.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/icon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/icon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/icon3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/icon4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/line_vert1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/line_vert2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/marker_1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page1_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page2_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page2_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page2_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page2_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page3_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page3_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page3_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/page4_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/select.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/title_marker1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/title_marker2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/images/title_marker3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/Adamina_400.font.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/PIE.htc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/atooltip.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/cufon-replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/cufon-yui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/jquery-1.6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/jquery.jqtransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/kwicks-1.5.1.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/pe-icon-7-stroke.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.blue.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.default.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.green.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.pink.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.red.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.sea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.sea.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.sea.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/css/style.violet.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/blog-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/blog-avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/blog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/blog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/blog3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/jumbotron1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/person-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/person-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/person-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/portfolio-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/img/template-mac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/js/front.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/_theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/_3rd-party.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/_demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/_mixins-custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/modules/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/style.blue.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/style.default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/style.green.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/style.pink.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/style.red.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/style.sea.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/scss/style.violet.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery.cookie/MIT-LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery.cookie/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/images/layers-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/images/layers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/images/marker-icon-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/images/marker-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/images/marker-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/leaflet-src.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/leaflet-src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/leaflet/leaflet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/css/lightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/js/lightbox-plus-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/js/lightbox-plus-jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/lightbox2/js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eski2/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/AjaxLoader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/basketsquare.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/blog-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/blog-avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/blog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/blog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/detailbig1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/detailbig2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/detailbig3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/detailsquare.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/detailsquare2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/detailsquare3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/getinspired1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/getinspired2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/getinspired3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/grabbing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/main-slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/main-slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/main-slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/main-slider4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/product1_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/product2_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/product3_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slider4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/template-mac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/front.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery.cookie/MIT-LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery.cookie/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/esm/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/esm/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/umd/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/umd/popper.js.flow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/vendor/popper.js/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_slider.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/categorytree.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/aboutus.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/faq.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/my_profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/appx.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HotelController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg_top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/footer_menu_line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icon2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icon3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icon4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/line_vert1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/line_vert2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/marker_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page1_img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page2_img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page2_img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page2_img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page2_img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page3_img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page3_img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page3_img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/page4_img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/select.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/title_marker1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/title_marker2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/title_marker3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/Adamina_400.font.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/PIE.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/atooltip.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/cufon-replace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/cufon-yui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery-1.6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.jqtransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/kwicks-1.5.1.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -715,7 +181,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -723,6 +189,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\layouts" />
       <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\admin" />
     </key>
   </component>
@@ -764,7 +231,11 @@
       <workItem from="1610199821153" duration="2221000" />
       <workItem from="1610223078850" duration="8577000" />
       <workItem from="1610278182526" duration="34241000" />
-      <workItem from="1610807319125" duration="27988000" />
+      <workItem from="1610807319125" duration="29837000" />
+      <workItem from="1610918905927" duration="12079000" />
+      <workItem from="1610973923017" duration="3183000" />
+      <workItem from="1610979930130" duration="577000" />
+      <workItem from="1611228973175" duration="14441000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -892,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610232392475</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Category Tree Sub Category&#10;Gösterimi ve Fonksiyon Tanımı&#10;&amp; eksiklerden dolayı Template değiştirme">
+      <created>1610842734160</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610842734160</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -954,7 +432,8 @@
     <MESSAGE value="Hotel Image Upload and Display and hotel image gallery" />
     <MESSAGE value=" Relation Category Product One to Many" />
     <MESSAGE value="setting site ayarları" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting site ayarları" />
+    <MESSAGE value="Category Tree Sub Category&#10;Gösterimi ve Fonksiyon Tanımı&#10;&amp; eksiklerden dolayı Template değiştirme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Category Tree Sub Category&#10;Gösterimi ve Fonksiyon Tanımı&#10;&amp; eksiklerden dolayı Template değiştirme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="407" key="#Composer" timestamp="1607772645017">
@@ -977,10 +456,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="185" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609612461021" />
-    <state x="471" y="7" key="CommitChangelistDialog2" timestamp="1610232390525">
+    <state x="620" y="298" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611245238259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="7" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610232390525" />
+    <state x="620" y="298" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611245238259" />
+    <state x="471" y="7" key="CommitChangelistDialog2" timestamp="1610842721061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="471" y="7" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610842721061" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607783402405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1009,18 +492,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607774656347" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1610838924198">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1611245285035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610838924198" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611245285035" />
     <state x="90" y="154" key="SettingsEditor" timestamp="1609624082941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609624082941" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610232406672">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610842750374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610232406672" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610842750374" />
     <state x="641" y="282" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1609776434520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

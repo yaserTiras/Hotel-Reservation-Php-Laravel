@@ -1,3 +1,7 @@
+@php
+    $setting=\App\Http\Controllers\HomeController::getsetting()
+
+@endphp
 <div id="footer">
     <div class="container">
         <div class="row">
@@ -7,6 +11,7 @@
                     <li><strong>Phone : </strong>{{$setting->phone}}</li>
                     <li><strong>Fax : </strong>{{$setting->fax}}</li>
                     <li><strong>Email : </strong>{{$setting->email}}</li>
+                    <li><a href="{{route('home_aboutus')}}">About Us</a></li>
                 </ul>
 
             </div>
@@ -15,7 +20,7 @@
             <!-- /.col-lg-3-->
             <div class="col-lg-3 col-md-6">
                 <h4 class="mb-3">Where to find us</h4>
-                <p><strong>Address.</strong><br>{{$setting->company}}<br>{{$setting->address}}</p>
+                <p><strong>Address</strong><br>{{$setting->company}}<br>{{$setting->address}}</p>
                 <hr class="d-block d-md-none">
             </div>
             <!-- /.col-lg-3-->
@@ -46,7 +51,7 @@ _________________________________________________________
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-2 mb-lg-0">
-                <p class="text-center text-lg-left">©2019  {{$setting->company}}.</p>
+                <p class="text-center text-lg-left">©2021  {{$setting->company}}.</p>
             </div>
             <div class="col-lg-6">
                 <p class="text-center text-lg-right">Template design by <a href="https://bootstrapious.com/">Bootstrapious</a>

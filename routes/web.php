@@ -22,6 +22,11 @@ Route::get('/', function () {
 Route::get('/',[HomeController::class,'index'])->name('homepage');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/home/aboutus',[HomeController::class, 'aboutus'])->name('home_aboutus');
+Route::get('/home/faq',[HomeController::class, 'faq'])->name('home_faq');
+Route::get('/home/references',[HomeController::class, 'references'])->name('home_references');
+Route::get('/home/contact',[HomeController::class, 'contact'])->name('home_contact');
+Route::get('/home/login',[HomeController::class, 'signin'])->name('home_login');
 
 
 Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
@@ -68,9 +73,16 @@ Route::middleware('auth')->prefix('admin')->group(function () {
 
 });
 
+Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
+    Route::get('/',[\App\Http\Controllers\UserController::class,'index'])->name('myprofile');
+
+});
+
+
 Route::get('/admin/login',[HomeController::class, 'login'])->name('admin_login');
 Route::post('/admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
 Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logout');
+Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

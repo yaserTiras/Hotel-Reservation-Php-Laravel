@@ -39,7 +39,7 @@
            @include('home._header')
            <div id="all">
                <div id="content">
-                   @include('home._slider')
+
 
 
                @section('content')
@@ -59,6 +59,8 @@
            <script src="{{ asset('assets')}}/vendor/owl.carousel/owl.carousel.min.js"></script>
            <script src="{{ asset('assets')}}/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
            <script src="{{ asset('assets')}}/js/front.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+           <script src="{{ asset('assets')}}/js/map.js"></script>
 
            @yield('footerjs')
 

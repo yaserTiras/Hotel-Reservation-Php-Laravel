@@ -25,9 +25,31 @@ class HomeController extends Controller
         $setting = Setting::first();
         return view('home.index',['setting' =>$setting]);
     }
+
     public function login()
     {
         return view('admin.login');
+    }
+    public function signin()
+    {
+        return view('home.login');
+    }
+
+    public function aboutus()
+    {
+        return view('home.aboutus');
+    }
+    public function contact()
+    {
+        return view('home.contact');
+    }
+    public function faq()
+    {
+        return view('home.faq');
+    }
+    public function references()
+    {
+        return view('home.references');
     }
 
     public function logincheck(Request $request)
