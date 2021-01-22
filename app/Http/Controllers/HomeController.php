@@ -37,7 +37,8 @@ class HomeController extends Controller
 
     public function aboutus()
     {
-        return view('home.aboutus');
+        $setting=Setting::first();
+        return view('home.aboutus',['setting'=>$setting]);
     }
     public function contact()
     {
@@ -49,7 +50,8 @@ class HomeController extends Controller
     }
     public function references()
     {
-        return view('home.references');
+        $setting=Setting::first();
+        return view('home.references',['setting'=>$setting]);
     }
 
     public function logincheck(Request $request)

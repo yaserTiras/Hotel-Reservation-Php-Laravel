@@ -91,16 +91,16 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">Template<b class="caret"></b></a>
+                    <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">General<b class="caret"></b></a>
                         <ul class="dropdown-menu megamenu">
                             <li>
                                 <div class="row">
                                     <div class="col-md-6 col-lg-3">
-                                        <h5>Shop</h5>
+                                        <h5>Company</h5>
                                         <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="index.html" class="nav-link">Homepage</a></li>
-                                            <li class="nav-item"><a href="category.html" class="nav-link">Category - sidebar left</a></li>
-                                            <li class="nav-item"><a href="category-right.html" class="nav-link">Category - sidebar right</a></li>
+                                            <li class="nav-item"><a href="{{route('home_contact')}}" class="nav-link">Contact Us</a></li>
+                                            <li class="nav-item"><a href="{{route('home_aboutus')}}" class="nav-link">About Us</a></li>
+                                            <li class="nav-item"><a href="{{route('home_references')}}" class="nav-link">References</a></li>
                                             <li class="nav-item"><a href="category-full.html" class="nav-link">Category - full width</a></li>
                                             <li class="nav-item"><a href="detail.html" class="nav-link">Product detail</a></li>
                                         </ul>

@@ -161,20 +161,20 @@
                         <div class="tab-pane fade" id="nav-aboutus" role="tabpanel" aria-labelledby="nav-aboutus-tab">
                             <div class="form-group">
                                 <label class="form-control-label">About Us</label>
-                                <input id="aboutus" name="aboutus" value="{{$data->aboutus}}" class="form-control">
+                                <textarea id="aboutus" name="aboutus"  class="form-control">{{$data->aboutus}}</textarea>
                             </div>
 
                         </div>
                         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                             <div class="form-group">
                                 <label class="form-control-label">Contact</label>
-                                <input id="contact" name="contact" value="{{$data->contact}}" class="form-control">
+                                <textarea id="contact" name="contact" class="form-control">{{$data->contact}}</textarea>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-references" role="tabpanel" aria-labelledby="nav-references-tab">
                             <div class="form-group">
                                 <label class="form-control-label">References</label>
-                                <input  id="references" name="references" value="{{$data->references}}" class="form-control">
+                                <textarea  id="references" name="references" class="form-control">{{$data->references}}</textarea>
 
                             <script>
                                 ClassicEditor
