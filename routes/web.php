@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Admin\MessageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,6 +27,7 @@ Route::get('/home/faq',[HomeController::class, 'faq'])->name('home_faq');
 Route::get('/home/references',[HomeController::class, 'references'])->name('home_references');
 Route::get('/home/contact',[HomeController::class, 'contact'])->name('home_contact');
 Route::get('/home/login',[HomeController::class, 'signin'])->name('home_login');
+Route::post('/sendmessage',[HomeController::class, 'sendmessage'])->name('sendmessage');
 
 
 Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
@@ -56,6 +57,18 @@ Route::middleware('auth')->prefix('admin')->group(function () {
         Route::post('update/{id}', [\App\Http\Controllers\Admin\HotelController::class, 'update'])->name('admin_hotel_update');
         Route::get('delete/{id}', [\App\Http\Controllers\Admin\HotelController::class, 'destroy'])->name('admin_hotel_delete');
         Route::post('show', [\App\Http\Controllers\Admin\HotelController::class, 'show'])->name('admin_hotel_show');
+
+
+    });
+
+    #hotel
+    Route::prefix('messages')->group(function () {
+        //route assigned name "admin.users"
+        Route::get('/', [MessageController::class, 'index'])->name('admin_message');
+        Route::get('edit/{id}', [MessageController::class, 'edit'])->name('admin_message_edit');
+        Route::post('update/{id}', [MessageController::class, 'update'])->name('admin_message_update');
+        Route::get('delete/{id}', [MessageController::class, 'destroy'])->name('admin_message_delete');
+        Route::post('show', [MessageController::class, 'show'])->name('admin_message_show');
 
 
     });

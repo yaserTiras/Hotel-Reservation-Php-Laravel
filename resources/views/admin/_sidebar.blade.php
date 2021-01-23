@@ -31,7 +31,7 @@
 
         <li><a href="{{route('admin_hotels')}}"> <i class="icon-grid"></i> Hotel </a></li>
         <li><a href="{{route('admin_setting')}}"> <i class="icon-grid"></i> Setting </a></li>
-        <li><a href="forms.html"> <i class="icon-padnote"></i>Forms </a></li>
+        <li><a href="{{ route('admin_message') }}"> <i class="icon-padnote"></i>Messages </a></li>
         <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Example dropdown </a>
             <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                 <li><a href="#">Page</a></li>
