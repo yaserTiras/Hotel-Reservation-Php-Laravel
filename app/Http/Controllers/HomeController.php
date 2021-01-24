@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Hotel;
 use App\Models\Setting;
 use App\Models\Category;
 use App\Models\Message;
@@ -24,7 +25,13 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        return view('home.index',['setting' =>$setting]);
+        $slider = Hotel::select('title','image','star')->get();
+        $data=[
+            'setting'=>$setting,
+            'slider'=>$slider,
+            'page'=>'home'
+        ];
+        return view('home.index',$data);
     }
 
     public function login()
