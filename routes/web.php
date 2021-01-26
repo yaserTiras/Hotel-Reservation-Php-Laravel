@@ -30,6 +30,7 @@ Route::get('/home/login',[HomeController::class, 'signin'])->name('home_login');
 Route::post('/sendmessage',[HomeController::class, 'sendmessage'])->name('sendmessage');
 
 Route::get('/hotel/{id}', [HomeController::class, 'hotel'])->name('hotel');
+Route::get('/categoryhotels/{id}', [HomeController::class, 'categoryhotels'])->name('categoryhotels');
 
 
 Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');

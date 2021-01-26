@@ -34,6 +34,7 @@
                         <th>Category</th>
                         <th>Title</th>
                         <th>Star</th>
+                        <th>Price</th>
                         <th>Address</th>
                         <th>Phone</th>
                         <th>Fax</th>
@@ -56,6 +57,7 @@
                         <td>{{ \App\Http\Controllers\Admin\CategoryController::getParentsTree($rs->category, $rs->category->title)}}</td>
                         <td>{{ $rs->title }}</td>
                         <td>{{ $rs->star }}</td>
+                        <td>{{ $rs->price }}</td>
                         <td>{{ $rs->address }}</td>
                         <td>{{ $rs->phone }}</td>
                         <td>{{ $rs->fax }}</td>

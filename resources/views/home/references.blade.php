@@ -1,12 +1,12 @@
+@php
 
+    $setting=\App\Http\Controllers\HomeController::getsetting();
+@endphp
 @extends('layouts.home')
 
 @section('title','Refernces '.$setting->title)
-@section('description')
-
-
-@endsection
-
+@section('description') {{ $setting->description}} @endsection
+@section('keywords',$setting->keywords)
 @section('content')
 
     <div id="all">
@@ -18,7 +18,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                                <li aria-current="page" class="breadcrumb-item active">Text page</li>
+                                <li aria-current="page" class="breadcrumb-item active">References</li>
                             </ol>
                         </nav>
                     </div>

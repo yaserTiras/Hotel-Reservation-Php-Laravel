@@ -71,6 +71,11 @@
                         <label class="form-control-label">Star</label>
                         <input type="text" name="star" value="{{$data->star}}" class="form-control">
                     </div>
+
+                    <div class="form-group">
+                        <label class="form-control-label">Price</label>
+                        <input type="text" name="price" value="{{$data->price}}" class="form-control">
+                    </div>
                     <div class="form-group">
                         <label class="form-control-label">Address</label>
                         <input type="text" name="address" value="{{$data->address}}" class="form-control">

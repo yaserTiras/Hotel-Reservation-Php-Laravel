@@ -51,6 +51,7 @@ class HotelController extends Controller
         $data->category_id = $request->input('category_id');
         $data->detail = $request->input('detail');
         $data->star = $request->input('star');
+        $data->price = $request->input('price');
         $data->address = $request->input('address');
         $data->phone = (int)$request->input('phone');
         $data->fax = (int)$request->input('fax');
@@ -110,6 +111,7 @@ class HotelController extends Controller
         $data->category_id = $request->input('category_id');
         $data->detail = $request->input('detail');
         $data->star = $request->input('star');
+        $data->price = $request->input('price');
         $data->address = $request->input('address');
         $data->phone = (int)$request->input('phone');
         $data->fax = (int)$request->input('fax');

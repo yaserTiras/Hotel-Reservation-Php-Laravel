@@ -6,9 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_26_212250_add_price_to_hotels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/category_hotels.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HotelController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_slider.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_slider.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/categorytree.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/categorytree.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/references.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/references.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +176,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -177,6 +184,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\home" />
       <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\admin" />
       <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\layouts" />
     </key>
@@ -228,7 +236,7 @@
       <workItem from="1611435936353" duration="7484000" />
       <workItem from="1611486197487" duration="3216000" />
       <workItem from="1611596098632" duration="2390000" />
-      <workItem from="1611666256642" duration="6021000" />
+      <workItem from="1611666256642" duration="14709000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -398,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611450649567</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Dynamic slider">
+      <created>1611676304368</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676304368</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,10 +512,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611363493310" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1611450645659">
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1611676297666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611450645659" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611676297666" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607783402405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -537,10 +552,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609624082941" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611450661812">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611676325983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611450661812" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611676325983" />
     <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1611358232820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -549,6 +564,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="277" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611262455730" />
+    <state x="764" y="230" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1611695907527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="230" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611695907527" />
     <state x="641" y="282" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1609776434520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
