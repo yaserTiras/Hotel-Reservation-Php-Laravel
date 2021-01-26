@@ -25,13 +25,20 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $slider = Hotel::select('title','image','star')->get();
+        $slider = Hotel::select('id','title','image','star')->limit(4)->get();
         $data=[
             'setting'=>$setting,
             'slider'=>$slider,
             'page'=>'home'
         ];
         return view('home.index',$data);
+    }
+
+    public function hotel($id)
+    {
+        $data = Hotel::find($id);
+        print_r($data);
+        exit();
     }
 
     public function login()

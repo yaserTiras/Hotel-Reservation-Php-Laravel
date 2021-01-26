@@ -29,6 +29,8 @@ Route::get('/home/contact',[HomeController::class, 'contact'])->name('home_conta
 Route::get('/home/login',[HomeController::class, 'signin'])->name('home_login');
 Route::post('/sendmessage',[HomeController::class, 'sendmessage'])->name('sendmessage');
 
+Route::get('/hotel/{id}', [HomeController::class, 'hotel'])->name('hotel');
+
 
 Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
 
