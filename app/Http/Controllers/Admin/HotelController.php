@@ -88,7 +88,7 @@ class HotelController extends Controller
      */
     public function edit(Hotel $hotel,$id)
     {
-        $data = hotel::find($id);
+        $data = Hotel::find($id);
         $datalist = Category::with('children')->get();
         //$datalist = Category::all();
         return view('admin.hotel_edit',['data'=> $data, 'datalist' =>  $datalist]);

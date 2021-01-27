@@ -54,7 +54,8 @@
 
                     <div class="form-group">
                         <label class="form-control-label">Detail</label>
-                        <div id="detail"> </div>
+                       <textarea  id="detail" name="detail" class="form-control">{{$data->detail}}</textarea>
+
                         <script>
                             ClassicEditor
                                 .create( document.querySelector( '#detail' ) )
@@ -65,8 +66,8 @@
                                     console.error( error );
                                 } );
                         </script>
-
                     </div>
+
                     <div class="form-group">
                         <label class="form-control-label">Star</label>
                         <input type="text" name="star" value="{{$data->star}}" class="form-control">

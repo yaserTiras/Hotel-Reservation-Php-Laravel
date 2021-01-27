@@ -5,6 +5,7 @@ use App\Models\Hotel;
 use App\Models\Setting;
 use App\Models\Category;
 use App\Models\Message;
+use App\Models\Image;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -42,8 +43,10 @@ class HomeController extends Controller
     public function hotel($id)
     {
         $data = Hotel::find($id);
-        print_r($data);
-        exit();
+        $datalist = Image::where('hotel_id',$id)->get();
+        #print_r($data);
+        #exit();
+        return view('home.hotel_detail',['data'=>$data,'datalist'=>$datalist]);
     }
 
     public function bookaroom($id)

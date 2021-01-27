@@ -6,10 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/hotel_detail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HotelController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +233,7 @@
       <workItem from="1611486197487" duration="3216000" />
       <workItem from="1611596098632" duration="2390000" />
       <workItem from="1611666256642" duration="15444000" />
-      <workItem from="1611748478304" duration="8570000" />
+      <workItem from="1611748478304" duration="19018000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -414,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611699083273</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Home Hotels Anasayfa da otellerin Gösterilmesi">
+      <created>1611765488700</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1611765488700</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +493,8 @@
     <MESSAGE value="user forms and contact us and admin edit" />
     <MESSAGE value="Dynamic slider" />
     <MESSAGE value="category oteleri listeleme" />
-    <option name="LAST_COMMIT_MESSAGE" value="category oteleri listeleme" />
+    <MESSAGE value="Home Hotels Anasayfa da otellerin Gösterilmesi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Hotels Anasayfa da otellerin Gösterilmesi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="407" key="#Composer" timestamp="1607772645017">
@@ -514,10 +525,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611363493310" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1611699078714">
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1611765482085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611699078714" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611765482085" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607783402405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -546,18 +557,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607774656347" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1611358754620">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1611770157507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611358754620" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611770157507" />
     <state x="90" y="154" key="SettingsEditor" timestamp="1609624082941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609624082941" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611699100259">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611765500098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611699100259" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611765500098" />
     <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1611358232820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -597,6 +608,16 @@
           <url>file://$PROJECT_DIR$/resources/views/admin/category_add.blade.php</url>
           <line>47</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/layouts/home.blade.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home/hotel_detail.blade.php</url>
+          <line>202</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
