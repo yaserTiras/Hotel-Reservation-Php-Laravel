@@ -32,6 +32,8 @@ Route::post('/sendmessage',[HomeController::class, 'sendmessage'])->name('sendme
 Route::get('/hotel/{id}', [HomeController::class, 'hotel'])->name('hotel');
 Route::get('/categoryhotels/{id}', [HomeController::class, 'categoryhotels'])->name('categoryhotels');
 
+Route::get('/bookaroom/{id}', [HomeController::class, 'bookaroom'])->name('bookaroom');
+
 
 Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
 

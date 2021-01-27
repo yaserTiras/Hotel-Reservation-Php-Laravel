@@ -25,10 +25,15 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $slider = Hotel::select('id','title','image','star')->limit(4)->get();
+        $slider = Hotel::select('id','title','price','image','star')->limit(4)->get();
+        $suggested = Hotel::select('id','title','price','image','star')->limit(5)->inRandomOrder()->get();
+        $luxury = Hotel::select('id','title','price','image','star')->limit(5)->orderByDesc('id')->get();
+
         $data=[
             'setting'=>$setting,
             'slider'=>$slider,
+            'suggested'=>$suggested,
+            'luxury'=>$luxury,
             'page'=>'home'
         ];
         return view('home.index',$data);
@@ -40,6 +45,15 @@ class HomeController extends Controller
         print_r($data);
         exit();
     }
+
+    public function bookaroom($id)
+    {
+        echo"book a room<br>";
+        $data = Hotel::find($id);
+        print_r($data);
+        exit();
+    }
+
 
     public function categoryhotels($id)
     {
