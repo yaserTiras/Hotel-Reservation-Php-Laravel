@@ -85,6 +85,18 @@ Route::middleware('auth')->prefix('admin')->group(function () {
         Route::post('show',[\App\Http\Controllers\Admin\ImageController::class,'show'])->name('admin_image_show');
 
     });
+
+    #room category
+    Route::prefix('room')->group(function () {
+
+        Route::get('create/{hotel_id}',[\App\Http\Controllers\Admin\RoomController::class,'create'])->name('admin_room_add');
+        Route::post('store/{hotel_id}',[\App\Http\Controllers\Admin\RoomController::class,'store'])->name('admin_room_store');
+        Route::get('delete/{id}/{hotel_id}',[\App\Http\Controllers\Admin\RoomController::class,'destroy'])->name('admin_room_delete');
+        Route::post('show',[\App\Http\Controllers\Admin\RoomController::class,'show'])->name('admin_room_show');
+
+
+    });
+
     #setting
     Route::get('setting', [\App\Http\Controllers\Admin\SettingController::class, 'index'])->name('admin_setting');
     Route::post('setting/update',[\App\Http\Controllers\Admin\SettingController::class,'update'])->name('admin_setting_update');
@@ -95,8 +107,41 @@ Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(fu
     Route::get('/',[\App\Http\Controllers\UserController::class,'index'])->name('myprofile');
 
 });
-Route::middleware('auth')->prefix('myaccount')->namespace('user')->group(function (){
+#USER
+Route::middleware('auth')->prefix('my_profile')->namespace('user')->group(function (){
     Route::get('/profile',[UserController::class,'index'])->name('userprofile');
+    #hotel
+    Route::prefix('hotel')->group(function () {
+        //route assigned name "admin.users"
+        Route::get('/', [\App\Http\Controllers\HotelController::class, 'index'])->name('user_hotels');
+        Route::get('create', [\App\Http\Controllers\HotelController::class, 'create'])->name('user_hotel_add');
+        Route::post('store', [\App\Http\Controllers\HotelController::class, 'store'])->name('user_hotel_store');
+        Route::get('edit/{id}', [\App\Http\Controllers\HotelController::class, 'edit'])->name('user_hotel_edit');
+        Route::post('update/{id}', [\App\Http\Controllers\HotelController::class, 'update'])->name('user_hotel_update');
+        Route::get('delete/{id}', [\App\Http\Controllers\HotelController::class, 'destroy'])->name('user_hotel_delete');
+        Route::post('show', [\App\Http\Controllers\HotelController::class, 'show'])->name('user_hotel_show');
+
+
+    });
+    #hotel image category
+    Route::prefix('image')->group(function (){
+        Route::get('create/{hotel_id}',[\App\Http\Controllers\ImageController::class,'create'])->name('user_image_add');
+        Route::post('store/{hotel_id}',[\App\Http\Controllers\ImageController::class,'store'])->name('user_image_store');
+        Route::get('delete/{id}/{hotel_id}',[\App\Http\Controllers\ImageController::class,'destroy'])->name('user_image_delete');
+        Route::post('show',[\App\Http\Controllers\ImageController::class,'show'])->name('user_image_show');
+
+    });
+
+    #room user
+    Route::prefix('rooms')->group(function () {
+
+        Route::get('/bla/{id}', [\App\Http\Controllers\RoomController::class, 'index'])->name('user_rooms');
+        Route::post('store', [\App\Http\Controllers\RoomController::class, 'store'])->name('user_rooms_store');
+        Route::post('update/{id}', [\App\Http\Controllers\RoomController::class, 'update'])->name('user_rooms_update');
+        Route::get('delete/{id}', [\App\Http\Controllers\RoomController::class, 'destroy'])->name('user_rooms_delete');
+
+
+    });
 
 });
 

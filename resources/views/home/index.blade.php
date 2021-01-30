@@ -40,7 +40,7 @@
                             <p class="price">
                                 <del></del>  {{$rs->price}}
                             </p>
-                            <p class="buttons"><a href="{{route('bookaroom',['id'=>$rs->id])}}" class="btn btn-outline-secondary">Book a room</a></p>
+                            <p class="buttons"><a href="{{route('hotel',['id'=>$rs->id])}}" class="btn btn-outline-secondary">Book a room</a></p>
                         </div>
                         <!-- /.text-->
                         <div class="ribbon sale">
