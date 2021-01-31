@@ -6,7 +6,7 @@
 @section('description') {{ $hotel->description}} @endsection
 
 @section('content')
-
+@include('home.message')
     <div id="all">
         <div id="content">
             <div class="container">
@@ -28,6 +28,7 @@
 
                     <div class="row products">
                         @foreach ($data as $rs)
+
                             <div class="col-lg-3 col-md-4">
 
                                 <div class="product">
@@ -41,17 +42,24 @@
                                         <h3>{{$rs->title}}</h3>
                                         <p class="price">
                                             <del></del>
-                                            Description :  {{$rs->description}}
+                                            <strong>Description : </strong>{{$rs->description}}
                                         </p>
                                         <p class="price">
                                             <del></del>
-                                           Price :  {{$rs->price}}
+                                            <strong>Price : </strong>{{$rs->price}}
                                         </p>
-                                        <p class="price">
-                                            <del></del>
-                                            Count : {{$rs->adet}}
+
+
+                                        <form action="{{route('user_shopcart_add',['id'=>$rs->id,'hotel_id'=>$rs->hotel_id])}}" method="post">
+                                            @csrf
+                                            <div class="col-lg-5">
+                                                <strong>Rooms:</strong><input name="adet" type="number" min="1" max="{{$rs->adet}}" value="1" class="form-control">
+
+                                            </div>
+                                        <p class="buttons">
+                                            <button href="#" type="submit" class="btn btn-outline-secondary">ADD</button>
                                         </p>
-                                        <p class="buttons"><a href=" " class="btn btn-outline-secondary">Book a room</a></p>
+                                        </form>
                                     </div>
                                     <!-- /.text-->
                                 </div>

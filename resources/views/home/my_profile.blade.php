@@ -20,7 +20,7 @@
                         </ol>
                     </nav>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                     <!--
                     *** CUSTOMER MENU ***
                     _________________________________________________________
@@ -29,7 +29,7 @@
                     <!-- /.col-lg-3-->
                     <!-- *** CUSTOMER MENU END ***-->
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-10">
                     <div class="box">
                         @include('profile.show')
 

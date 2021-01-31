@@ -143,6 +143,17 @@ Route::middleware('auth')->prefix('my_profile')->namespace('user')->group(functi
 
     });
 
+    #Shopcart
+    Route::prefix('shopcart')->group(function () {
+        //route assigned name "admin.users"
+        Route::get('/', [\App\Http\Controllers\ShopcartController::class, 'index'])->name('user_shopcart');
+        Route::post('store/{id}/{hotel_id}', [\App\Http\Controllers\ShopcartController::class, 'store'])->name('user_shopcart_add');
+        Route::post('update/{id}', [\App\Http\Controllers\ShopcartController::class, 'update'])->name('user_shopcart_update');
+        Route::get('delete/{id}', [\App\Http\Controllers\ShopcartController::class, 'destroy'])->name('user_shopcart_delete');
+
+
+    });
+
 });
 
 

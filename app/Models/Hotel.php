@@ -12,4 +12,13 @@ class Hotel extends Model
     {
         return $this->belongsTo( Category::class);
     }
+
+    public function shopcart()
+    {
+        return $this->hasMany( Shopcart::class);
+    }
+    public function room()
+    {
+        return $this->hasMany( Room::class);
+    }
 }

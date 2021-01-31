@@ -10,6 +10,9 @@
             <a href="{{route('user_hotels')}}" class="nav-link">
                 <i class="fa fa-list"></i> My Hotels
             </a>
+            <a href="{{route('user_shopcart')}}" class="nav-link">
+                <i class="fa fa-list"></i> Rezervation
+            </a>
             <a href="{{route('user_hotels')}}" class="nav-link">
                 <i class="fa fa-list"></i> My Booking History
             </a>
