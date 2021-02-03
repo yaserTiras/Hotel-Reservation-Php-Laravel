@@ -9,22 +9,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ShopcartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Shopcart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_30_180118_create_shopcarts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_30_181052_shopcart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_30_224220_add_hotel_id_to_shopcarts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/user_room_book.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ReservationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_02_010341_create_reservations_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_02_012239_reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/re/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/re/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/re/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/rezervasyon.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/user_reservation.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0384a0b5-dcbe-447f-9252-28422d52b217.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0384a0b5-dcbe-447f-9252-28422d52b217.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Hotel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Room.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_29_163536_create_rooms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_29_163536_create_rooms_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/category_hotels.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/category_hotels.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/category_rooms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/category_rooms.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/hotel_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/hotel_detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/my_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/my_profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_hotel_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_hotel_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/user_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_room_book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_room_book.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +254,12 @@
       <workItem from="1611748478304" duration="19124000" />
       <workItem from="1611866229324" duration="4035000" />
       <workItem from="1611922978717" duration="37876000" />
-      <workItem from="1612005939960" duration="31362000" />
+      <workItem from="1612005939960" duration="31425000" />
+      <workItem from="1612132166406" duration="207000" />
+      <workItem from="1612221929478" duration="9606000" />
+      <workItem from="1612275640716" duration="4295000" />
+      <workItem from="1612302712243" duration="701000" />
+      <workItem from="1612312694190" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -454,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612029597260</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="rezervation oda ayırma kısmı">
+      <created>1612055166893</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612055166893</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +543,8 @@
     <MESSAGE value="Home Hotels Anasayfa da otellerin Gösterilmesi" />
     <MESSAGE value="detail içerik sayfası" />
     <MESSAGE value="Room hotel category page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Room hotel category page" />
+    <MESSAGE value="rezervation oda ayırma kısmı" />
+    <option name="LAST_COMMIT_MESSAGE" value="rezervation oda ayırma kısmı" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="407" key="#Composer" timestamp="1607772645017">
@@ -553,14 +571,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="620" y="298" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611245238259" />
-    <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612050241396">
+    <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612278783954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612050241396" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612029586096">
+    <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612278783954" />
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612055161981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612029586096" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612055161981" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607783402405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -589,22 +607,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611935114520" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1611936015006">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1612313596955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611936015006" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612313596955" />
     <state x="90" y="154" key="SettingsEditor" timestamp="1609624082941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609624082941" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612029607402">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612055173638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612029607402" />
-    <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1611358232820">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612055173638" />
+    <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612230655287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1611358232820" />
+    <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1612230655287" />
     <state x="624" y="277" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1611262455730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

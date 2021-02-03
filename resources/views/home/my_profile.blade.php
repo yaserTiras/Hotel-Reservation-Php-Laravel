@@ -7,9 +7,9 @@
 
 @section('content')
 
-<div id="all">
-    <div id="content">
-        <div class="container">
+    <div id="all">
+        <div id="content">
+
             <div class="row">
                 <div class="col-lg-12">
                     <!-- breadcrumb-->
@@ -25,8 +25,8 @@
                     *** CUSTOMER MENU ***
                     _________________________________________________________
                     -->
-                   @include('home.user_menu')
-                    <!-- /.col-lg-3-->
+                @include('home.user_menu')
+                <!-- /.col-lg-3-->
                     <!-- *** CUSTOMER MENU END ***-->
                 </div>
                 <div class="col-lg-10">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
-</div>
 @endsection

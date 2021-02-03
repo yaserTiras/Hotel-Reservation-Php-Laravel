@@ -13,15 +13,15 @@
                 <div class="col-lg-6 offer mb-3 mb-lg-0"></div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <ul class="menu list-inline mb-0">
-                    @auth
-                            <li class="list-inline-item"><strong>{{Auth::user()->name}}</strong></li>
-
-                            <li class="list-inline-item"><a href="{{route('logout')}}" >Logout</a></li>
-
+                        @auth
+                            <a href="{{route('myprofile')}}"><strong>{{Auth::user()->name}}</strong></a>
                         @endauth
+                        <li class="list-inline-item"><a href="{{route('logout')}}" >Logout</a></li>
+
+
                         @guest()
-                        <li class="list-inline-item"><a href="{{route('home_login')}}" >Login</a></li>
-                        <li class="list-inline-item"><a href="/register">Register</a></li>
+                            <li class="list-inline-item"><a href="/login" >Login</a></li>
+                            <li class="list-inline-item"><a href="/register">Register</a></li>
                         @endauth
                         <li class="list-inline-item"><a href="{{route('home_contact')}}">Contact</a></li>
                         <li class="list-inline-item"><a href="">References</a></li>

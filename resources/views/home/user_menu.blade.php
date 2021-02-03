@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <ul class="nav nav-pills flex-column">
-            <a href="{{route('myprofile')}}" class="nav-link active">
+            <a href="{{route('myprofile')}}" class="nav-link">
                 <i class="fa fa-user"></i> My account
             </a>
             <a href="{{route('user_hotels')}}" class="nav-link">
@@ -13,15 +13,11 @@
             <a href="{{route('user_shopcart')}}" class="nav-link">
                 <i class="fa fa-list"></i> Rezervation
             </a>
-            <a href="{{route('user_hotels')}}" class="nav-link">
-                <i class="fa fa-list"></i> My Booking History
+            <a href="{{route('user_reservation')}}" class="nav-link">
+                <i class="fa fa-list"></i> My Bookings
             </a>
-            <a href="customer-wishlist.html" class="nav-link">
-                <i class="fa fa-heart"></i> My favorite
-            </a>
-            <a href="customer-account.html" class="nav-link">
 
-            </a>
         </ul>
     </div>
 </div>
+

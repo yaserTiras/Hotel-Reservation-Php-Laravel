@@ -62,7 +62,7 @@
                                     <input id="password" type="password" name="password" class="form-control">
                                 </div>
                                 <div class="text-center">
-                                    <a href="{{route('home')}}" type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</a>
+                                    <a href="{{route('myprofile')}}" type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</a>
                                 </div>
                             </form>
                         </div>

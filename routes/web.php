@@ -97,6 +97,8 @@ Route::middleware('auth')->prefix('admin')->group(function () {
 
     });
 
+    
+
     #setting
     Route::get('setting', [\App\Http\Controllers\Admin\SettingController::class, 'index'])->name('admin_setting');
     Route::post('setting/update',[\App\Http\Controllers\Admin\SettingController::class,'update'])->name('admin_setting_update');
@@ -150,6 +152,14 @@ Route::middleware('auth')->prefix('my_profile')->namespace('user')->group(functi
         Route::post('store/{id}/{hotel_id}', [\App\Http\Controllers\ShopcartController::class, 'store'])->name('user_shopcart_add');
         Route::post('update/{id}', [\App\Http\Controllers\ShopcartController::class, 'update'])->name('user_shopcart_update');
         Route::get('delete/{id}', [\App\Http\Controllers\ShopcartController::class, 'destroy'])->name('user_shopcart_delete');
+
+
+    });
+    Route::prefix('reservation')->group(function () {
+        //route assigned name "admin.users"
+        Route::get('/', [\App\Http\Controllers\ReservationController::class, 'index'])->name('user_reservation');
+        Route::post('store/{id}/{hotel_id}', [\App\Http\Controllers\ReservationController::class, 'store'])->name('user_reservation_add');
+        Route::get('delete/{reservation_id}', [\App\Http\Controllers\ReservationController::class, 'destroy'])->name('user_reservation_delete');
 
 
     });
