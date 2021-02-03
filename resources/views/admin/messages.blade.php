@@ -39,7 +39,8 @@
                         <th>Subject</th>
                         <th>Message</th>
                         <th>Admin Note</th>
-                        <th>Action</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
 
                     </tr>
                     </thead>

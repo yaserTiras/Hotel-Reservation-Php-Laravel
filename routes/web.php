@@ -97,7 +97,18 @@ Route::middleware('auth')->prefix('admin')->group(function () {
 
     });
 
-    
+    #Reservation
+    Route::prefix('reservation')->group(function () {
+
+        Route::get('/', [\App\Http\Controllers\Admin\ReservationController::class, 'index'])->name('admin_reservation');
+
+        Route::get('delete/{id}', [\App\Http\Controllers\Admin\ReservationController::class, 'destroy'])->name('admin_reservation_delete');
+        Route::post('update/{id}', [\App\Http\Controllers\Admin\ReservationController::class, 'update'])->name('admin_reservation_update');
+        Route::get('show/{id}', [\App\Http\Controllers\Admin\ReservationController::class, 'show'])->name('admin_reservation_show');
+
+
+
+    });
 
     #setting
     Route::get('setting', [\App\Http\Controllers\Admin\SettingController::class, 'index'])->name('admin_setting');

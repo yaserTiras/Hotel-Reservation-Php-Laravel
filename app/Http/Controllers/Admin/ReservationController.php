@@ -3,8 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Hotel;
 use App\Models\Reservation;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ReservationController extends Controller
 {
@@ -15,7 +17,8 @@ class ReservationController extends Controller
      */
     public function index()
     {
-        //
+        $datalist = Reservation::where('user_id',Auth::id())->get();
+        return view('admin.reservation',['datalist'=> $datalist]);
     }
 
     /**
@@ -45,9 +48,10 @@ class ReservationController extends Controller
      * @param  \App\Models\Reservation  $reservation
      * @return \Illuminate\Http\Response
      */
-    public function show(Reservation $reservation)
+    public function show(Reservation $reservation,$id)
     {
-        //
+        $data=Reservation::find($id);
+        return view('admin.reservation_edit',['data'=>$data]);
     }
 
     /**
@@ -68,9 +72,14 @@ class ReservationController extends Controller
      * @param  \App\Models\Reservation  $reservation
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Reservation $reservation)
+    public function update(Request $request, Reservation $reservation,$id)
     {
-        //
+        $data=Reservation::find($id);
+        $data->status=$request->input('status');
+        $data->message=$request->input('message');
+        $data->save();
+        return redirect()->back()->with('success','Message has been sent!');
+
     }
 
     /**
