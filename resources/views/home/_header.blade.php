@@ -14,7 +14,7 @@
                 <div class="col-lg-6 text-center text-lg-right">
                     <ul class="menu list-inline mb-0">
                     @auth
-                            <a href="{{route('myprofile')}}"><strong>{{Auth::user()->name}}</strong> {{Auth::user()->roles->pluck('name')}}</a>
+                            <a href="{{route('myprofile')}}"><strong>{{Auth::user()->name}}</strong></a>
                         @endauth
                             <li class="list-inline-item"><a href="{{route('logout')}}" >Logout</a></li>
 
