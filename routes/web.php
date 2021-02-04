@@ -33,6 +33,7 @@ Route::get('/hotel/{id}', [HomeController::class, 'hotel'])->name('hotel');
 Route::get('/categoryhotels/{id}', [HomeController::class, 'categoryhotels'])->name('categoryhotels');
 
 Route::get('/bookaroom/{id}', [HomeController::class, 'bookaroom'])->name('bookaroom');
+Route::post('/sendreview/{id}/{slug}', [HomeController::class, 'sendreview'])->name('sendreview');
 
 
 Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
@@ -40,6 +41,8 @@ Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id
 
 // Admin
 Route::middleware('auth')->prefix('admin')->group(function () {
+
+    Route::middleware('admin')->group(function (){
 
     Route::get('/', [\App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin_home');
     Route::get('category', [\App\Http\Controllers\Admin\CategoryController::class, 'index'])->name('admin_category');
@@ -96,11 +99,53 @@ Route::middleware('auth')->prefix('admin')->group(function () {
 
 
     });
+    #Reservation
+    Route::prefix('reservation')->group(function () {
+
+        Route::get('/', [\App\Http\Controllers\Admin\ReservationController::class, 'index'])->name('admin_reservation');
+        Route::get('show/{id}', [\App\Http\Controllers\Admin\ReservationController::class, 'show'])->name('admin_reservation_show');
+        Route::get('list/{status}', [\App\Http\Controllers\Admin\ReservationController::class, 'list'])->name('admin_reservation_list');
+        Route::get('delete/{id}', [\App\Http\Controllers\Admin\ReservationController::class, 'destroy'])->name('admin_reservation_delete');
+        Route::post('update/{id}', [\App\Http\Controllers\Admin\ReservationController::class, 'update'])->name('admin_reservation_update');
+
+
+
+    });
+        Route::prefix('user')->group(function () {
+            //route assigned name "admin.users"
+            Route::get('/', [\App\Http\Controllers\Admin\UserController::class, 'index'])->name('admin_users');
+            Route::post('create', [\App\Http\Controllers\Admin\UserController::class, 'create'])->name('admin_user_add');
+            Route::post('store', [\App\Http\Controllers\Admin\UserController::class, 'store'])->name('admin_user_store');
+            Route::get('edit/{id}', [\App\Http\Controllers\Admin\UserController::class, 'edit'])->name('admin_user_edit');
+            Route::get('show/{id}', [\App\Http\Controllers\Admin\UserController::class, 'show'])->name('admin_user_show');
+            Route::post('update/{id}', [\App\Http\Controllers\Admin\UserController::class, 'update'])->name('admin_user_update');
+            Route::get('delete/{id}', [\App\Http\Controllers\Admin\UserController::class, 'destroy'])->name('admin_user_delete');
+            Route::get('userrole/{id}', [\App\Http\Controllers\Admin\UserController::class, 'user_roles'])->name('admin_user_roles');
+            Route::post('userrolestore/{id}', [\App\Http\Controllers\Admin\UserController::class, 'user_role_store'])->name('admin_user_role_add');
+            Route::get('userroledelete/{userid}/{roleid}', [\App\Http\Controllers\Admin\UserController::class, 'user_role_delete'])->name('admin_user_role_delete');
+
+
+
+        });
+        #FAQ
+        Route::prefix('faq')->group(function () {
+            //route assigned name "admin.users"
+            Route::get('/', [\App\Http\Controllers\Admin\FaqController::class, 'index'])->name('admin_faq');
+            Route::get('create', [\App\Http\Controllers\Admin\FaqController::class, 'create'])->name('admin_faq_add');
+            Route::post('store', [\App\Http\Controllers\Admin\FaqController::class, 'store'])->name('admin_faq_store');
+            Route::get('edit/{id}', [\App\Http\Controllers\Admin\FaqController::class, 'edit'])->name('admin_faq_edit');
+            Route::post('update/{id}', [\App\Http\Controllers\Admin\FaqController::class, 'update'])->name('admin_faq_update');
+            Route::get('delete/{id}', [\App\Http\Controllers\Admin\FaqController::class, 'destroy'])->name('admin_faq_delete');
+            Route::post('show', [\App\Http\Controllers\Admin\FaqController::class, 'show'])->name('admin_faq_show');
+
+
+        });
+
 
     #setting
     Route::get('setting', [\App\Http\Controllers\Admin\SettingController::class, 'index'])->name('admin_setting');
     Route::post('setting/update',[\App\Http\Controllers\Admin\SettingController::class,'update'])->name('admin_setting_update');
-
+    });
 });
 
 Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
@@ -143,6 +188,7 @@ Route::middleware('auth')->prefix('my_profile')->namespace('user')->group(functi
 
     });
 
+
     #Shopcart
     Route::prefix('shopcart')->group(function () {
         //route assigned name "admin.users"
@@ -150,6 +196,14 @@ Route::middleware('auth')->prefix('my_profile')->namespace('user')->group(functi
         Route::post('store/{id}/{hotel_id}', [\App\Http\Controllers\ShopcartController::class, 'store'])->name('user_shopcart_add');
         Route::post('update/{id}', [\App\Http\Controllers\ShopcartController::class, 'update'])->name('user_shopcart_update');
         Route::get('delete/{id}', [\App\Http\Controllers\ShopcartController::class, 'destroy'])->name('user_shopcart_delete');
+
+
+    });
+    Route::prefix('reservation')->group(function () {
+        //route assigned name "admin.users"
+        Route::get('/', [\App\Http\Controllers\ReservationController::class, 'index'])->name('user_reservation');
+        Route::post('store/{id}/{hotel_id}', [\App\Http\Controllers\ReservationController::class, 'store'])->name('user_reservation_add');
+        Route::get('delete/{reservation_id}', [\App\Http\Controllers\ReservationController::class, 'destroy'])->name('user_reservation_delete');
 
 
     });

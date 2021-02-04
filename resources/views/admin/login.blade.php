@@ -45,7 +45,7 @@
                 <div class="col-lg-6">
                     <div class="form d-flex align-items-center">
                         <div class="content">
-
+                          @include('home.message')
                             <form action="{{ route('admin_logincheck') }}" method="post">
                                 @csrf
                                 <div class="form-group">

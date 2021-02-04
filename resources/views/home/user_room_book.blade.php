@@ -1,16 +1,19 @@
 @php
     $setting=\App\Http\Controllers\HomeController::getsetting();
 @endphp
+
+
 @extends('layouts.home')
 
 @section('title','My Hotels')
+@include('home.rezervasyon')
 
 @section('content')
 
 
     <div id="all">
         <div id="content">
-            <div class="container">
+
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- breadcrumb-->
@@ -26,7 +29,7 @@
                     @include('home.user_menu')
 
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-9">
 
                     <div class="table-responsive">
                         <table class="table table-striped">
@@ -34,7 +37,7 @@
                             <tr>
                                 <th>Rooms</th>
                                 <th>Hotel</th>
-                                <th>Rezerved Rooms</th>
+                                <th>Rezerved Days</th>
                                 <th>Price</th>
                                 <th>Total Price</th>
                                 <th>Delete</th>
@@ -80,9 +83,94 @@
 
 
                         </table>
-                    </div>
+
+
+
+
+                            <div >
+
+                                <form action="{{route('user_reservation_add',['id'=>$rs->id,'hotel_id'=>$rs->hotel_id])}}" method="post">
+                                    @csrf
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Name</span>
+                                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span class="form-label">SurName</span>
+                                                <input class="form-control" id="surname" name="surname" type="text" placeholder="Enter your surname">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Email</span>
+                                                <input class="form-control" id="email" name="email" type="email" placeholder="Enter your email">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span class="form-label" id="total" name="total">Total</span>
+                                                <input class="form-control" type="text" id="total" name="total" value="{{$total}} $" readonly="readonly" >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="form-label">Phone</span>
+                                        <input class="form-control" id="phone" name="phone" type="text" placeholder="Enter your phone number">
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="form-group">
+                                                <span class="form-label">Check IN</span>
+                                                <input class="form-control" id="checkin" name="checkin" type="date" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="form-group">
+                                                <span class="form-label">Check Out</span>
+                                                <input class="form-control" id="checkout" name="checkout" type="date" required="">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-sm-7">
+                                            <label class="form-label form-label-top" id="note" for="note"> Any Special request? </label>
+                                            <div id="note" name="note" class="form-input-wide">
+                                                <textarea id="note" class="form-textarea" name="note" cols="40" rows="6" data-component="textarea" aria-labelledby="label_20"></textarea>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <br>
+                                    <div >
+                                        <button href="#" type="submit" class="btn btn-outline-secondary">Book Now</button>
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
                 </div>
             </div>
+
+
+
 
 
 

@@ -11,7 +11,7 @@
 
     <div id="all">
         <div id="content">
-            <div class="container">
+
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- breadcrumb-->
@@ -30,7 +30,7 @@
 
                     <div class="row products">
                         @foreach ($datalist as $rs)
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-2 col-md-2">
 
                             <div class="product">
                                 <div class="flip-container">
@@ -45,7 +45,7 @@
                                         <del></del>
                                         {{$rs->price}}
                                     </p>
-                                    <p class="buttons"><a href="{{route('hotel',['id'=>$rs->id])}}" class="btn btn-outline-secondary">Book a room</a></p>
+                                    <p class="buttons"><a href="{{route('hotel',['id'=>$rs->id])}}" class="btn btn-outline-secondary">Show Details</a></p>
                                 </div>
                                 <!-- /.text-->
                             </div>

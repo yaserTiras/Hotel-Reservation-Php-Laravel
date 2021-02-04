@@ -1,15 +1,15 @@
 
 
 @extends('layouts.home')
- @section('title', $hotel->title ."Rooms List")
+@section('title', $hotel->title ."Rooms List")
 
 @section('description') {{ $hotel->description}} @endsection
 
 @section('content')
-@include('home.message')
+    @include('home.message')
     <div id="all">
         <div id="content">
-            <div class="container">
+
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- breadcrumb-->
@@ -29,7 +29,7 @@
                     <div class="row products">
                         @foreach ($data as $rs)
 
-                            <div class="col-lg-3 col-md-4">
+                            <div class="col-lg-4 col-md-5">
 
                                 <div class="product">
                                     <div class="flip-container">
@@ -53,12 +53,15 @@
                                         <form action="{{route('user_shopcart_add',['id'=>$rs->id,'hotel_id'=>$rs->hotel_id])}}" method="post">
                                             @csrf
                                             <div class="col-lg-5">
-                                                <strong>Rooms:</strong><input name="adet" type="number" min="1" max="{{$rs->adet}}" value="1" class="form-control">
+                                                <strong>Days:</strong><input name="adet" type="number" min="1"  value="1" class="form-control">
 
+
+                                            <p class="buttons">
+                                                <button href="#" type="submit" class="btn btn-primary navbar-btn">ADD</button>
+                                            <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="{{route('user_shopcart')}}" class="btn btn-primary navbar-btn"><span>{{\App\Http\Controllers\ShopcartController::countshopcart()}} Complete Rezervation</span></a></div>
+
+                                            </p>
                                             </div>
-                                        <p class="buttons">
-                                            <button href="#" type="submit" class="btn btn-outline-secondary">ADD</button>
-                                        </p>
                                         </form>
                                     </div>
                                     <!-- /.text-->
@@ -86,16 +89,14 @@
 
 
 
-            </div>
         </div>
 
 
 
 
 
-        -
 
 
-  @endsection
+@endsection
 
 

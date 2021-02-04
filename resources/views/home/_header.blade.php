@@ -14,44 +14,19 @@
                 <div class="col-lg-6 text-center text-lg-right">
                     <ul class="menu list-inline mb-0">
                     @auth
-                            <li class="list-inline-item"><strong>{{Auth::user()->name}}</strong></li>
-
+                            <a href="{{route('myprofile')}}"><strong>{{Auth::user()->name}}</strong> {{Auth::user()->roles->pluck('name')}}</a>
+                        @endauth
                             <li class="list-inline-item"><a href="{{route('logout')}}" >Logout</a></li>
 
-                        @endauth
+
                         @guest()
-                        <li class="list-inline-item"><a href="{{route('home_login')}}" >Login</a></li>
+                        <li class="list-inline-item"><a href="/login" >Login</a></li>
                         <li class="list-inline-item"><a href="/register">Register</a></li>
                         @endauth
                         <li class="list-inline-item"><a href="{{route('home_contact')}}">Contact</a></li>
                         <li class="list-inline-item"><a href="">References</a></li>
                         <li class="list-inline-item"><a href="{{route('home_faq')}}">Faq</a></li>
                     </ul>
-                </div>
-            </div>
-        </div>
-        <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Customer login</h5>
-                        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
-                            <div class="form-group">
-                                <input id="email-modal" type="text" placeholder="email" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <input id="password-modal" type="password" placeholder="password" class="form-control">
-                            </div>
-                            <p class="text-center">
-                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-                            </p>
-                        </form>
-                        <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="/register"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -70,25 +45,6 @@
 
                     @include('home._category')
 
-                    <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">Pictures<b class="caret"></b></a>
-                        <ul class="dropdown-menu megamenu">
-                            <li>
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-3">
-                                        <h5>Clothing</h5>
-
-                                    </div>
-
-
-                                    <div class="col-md-3 col-lg-4">
-                                        <div class="banner"><a href="#"><img src="{{ asset('assets')}}/img/banner.jpg" alt="" class="img img-fluid"></a></div>
-
-                                    </div>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </li>
 
                     <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">General<b class="caret"></b></a>
                         <ul class="dropdown-menu megamenu">
@@ -100,8 +56,7 @@
                                             <li class="nav-item"><a href="{{route('home_contact')}}" class="nav-link">Contact Us</a></li>
                                             <li class="nav-item"><a href="{{route('home_aboutus')}}" class="nav-link">About Us</a></li>
                                             <li class="nav-item"><a href="{{route('home_references')}}" class="nav-link">References</a></li>
-                                            <li class="nav-item"><a href="category-full.html" class="nav-link">Category - full width</a></li>
-                                            <li class="nav-item"><a href="detail.html" class="nav-link">Product detail</a></li>
+                                            <li class="nav-item"><a href="{{route('home_faq')}}" class="nav-link">FAQ</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6 col-lg-3">
@@ -115,23 +70,8 @@
                                     <div class="col-md-6 col-lg-3">
                                         <h5>Order process</h5>
                                         <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="basket.html" class="nav-link">Shopping cart</a></li>
-                                            <li class="nav-item"><a href="checkout1.html" class="nav-link">Checkout - step 1</a></li>
-                                            <li class="nav-item"><a href="checkout2.html" class="nav-link">Checkout - step 2</a></li>
-                                            <li class="nav-item"><a href="checkout3.html" class="nav-link">Checkout - step 3</a></li>
-                                            <li class="nav-item"><a href="checkout4.html" class="nav-link">Checkout - step 4</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3">
-                                        <h5>Pages and blog</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="blog.html" class="nav-link">Blog listing</a></li>
-                                            <li class="nav-item"><a href="post.html" class="nav-link">Blog Post</a></li>
-                                            <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
-                                            <li class="nav-item"><a href="text.html" class="nav-link">Text page</a></li>
-                                            <li class="nav-item"><a href="text-right.html" class="nav-link">Text page - right sidebar</a></li>
-                                            <li class="nav-item"><a href="404.html" class="nav-link">404 page</a></li>
-                                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                                            <li class="nav-item"><a href="{{route('user_shopcart')}}" class="nav-link">Rezervation</a></li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -146,7 +86,8 @@
                 <div class="navbar-buttons d-flex justify-content-end">
                     <!-- /.nav-collapse-->
 
-                    <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="{{route('user_shopcart')}}" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span>{{\App\Http\Controllers\ShopcartController::countshopcart()}} Complete Rezervation</span></a></div>
+                    <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="{{route('user_shopcart')}}" class="btn btn-primary navbar-btn"><span>{{\App\Http\Controllers\ShopcartController::countshopcart()}} Complete Rezervation</span></a></div>
+
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Faq;
 use App\Models\Hotel;
 use App\Models\Setting;
 use App\Models\Category;
@@ -75,6 +76,8 @@ class HomeController extends Controller
     {
         return view('home.login');
     }
+
+
     public function sendmessage(Request $request)
     {
         $data = new Message();
@@ -99,7 +102,8 @@ class HomeController extends Controller
     }
     public function faq()
     {
-        return view('home.faq');
+        $datalist = Faq::all()->sortBy('position');
+        return view('home.faq',['datalist'=>$datalist]);
     }
     public function references()
     {

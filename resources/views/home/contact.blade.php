@@ -7,7 +7,7 @@
 
     <div id="all">
         <div id="content">
-            <div class="container">
+
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- breadcrumb-->
@@ -93,7 +93,7 @@
 
                 </div>
             </div>
-        </div>
+
     </div>
 
 @endsection

@@ -51,7 +51,7 @@
 
                     <div class="form-group">
                         <label class="form-control-label">Detail</label>
-                        <div id="detail">  </div>
+                        <textarea  id="detail" name="detail" class="form-control"> </textarea>
                         <script>
                             ClassicEditor
                                 .create( document.querySelector( '#detail' ) )
