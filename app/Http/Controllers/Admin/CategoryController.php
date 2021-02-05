@@ -15,6 +15,7 @@ class CategoryController extends Controller
         {
             return $title;
         }
+        /**merrr*/
 
         $parent = Category::find($category->parent_id);
         $title = $parent->title . ' -> ' . $title;
