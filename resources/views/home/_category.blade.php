@@ -1,3 +1,4 @@
+
 @php
     $parentcategories=\App\Http\Controllers\HomeController::categorylist()
 @endphp

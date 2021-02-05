@@ -8,7 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="" />
+    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="Template ayarları">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,6 +257,8 @@
       <workItem from="1612455291317" duration="740000" />
       <workItem from="1612465928182" duration="4393000" />
       <workItem from="1612482435603" duration="349000" />
+      <workItem from="1612566756440" duration="829000" />
+      <workItem from="1612567607256" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -546,7 +551,8 @@
     <MESSAGE value="Room hotel category page" />
     <MESSAGE value="rezervation oda ayırma kısmı" />
     <MESSAGE value="faqs and user roles mangement" />
-    <option name="LAST_COMMIT_MESSAGE" value="faqs and user roles mangement" />
+    <MESSAGE value="Template ayarları" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template ayarları" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="407" key="#Composer" timestamp="1607772645017">
@@ -561,6 +567,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="94" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1610811418699" />
+    <state x="643" y="298" key="#Notifications" timestamp="1612567817518">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="298" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1612567817518" />
     <state x="757" y="309" key="#Web_Browsers" timestamp="1608044090718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -577,10 +587,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612385103783" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612482570961">
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612567633917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612482570961" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612567633917" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612313565704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -609,6 +619,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="274" height="594" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1609612111403" />
+    <state x="508" y="219" key="MultipleFileMergeDialog" timestamp="1612567810474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="508" y="219" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612567810474" />
     <state x="757" y="243" key="NewPhpClassDialog" timestamp="1611935114520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -617,14 +631,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612372000048" />
-    <state x="90" y="154" key="SettingsEditor" timestamp="1609624082941">
+    <state x="90" y="154" key="SettingsEditor" timestamp="1612563052798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609624082941" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612482782253">
+    <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612563052798" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612563810653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612482782253" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612563810653" />
     <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612230655287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -637,10 +651,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="299" width="648" height="454" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612444061119" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612307562272">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612567802514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612307562272" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612567802514" />
     <state x="641" y="282" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1609776434520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
