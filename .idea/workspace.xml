@@ -8,9 +8,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="Template ayarları">
+    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +257,8 @@
       <workItem from="1612465928182" duration="4393000" />
       <workItem from="1612482435603" duration="349000" />
       <workItem from="1612566756440" duration="829000" />
-      <workItem from="1612567607256" duration="211000" />
+      <workItem from="1612567607256" duration="308000" />
+      <workItem from="1612611522225" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -477,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612482579563</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Template ayarları">
+      <created>1612567844708</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1612567844708</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,10 +594,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612385103783" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612567633917">
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612567843120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612567633917" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612567843120" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612313565704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -635,10 +642,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612563052798" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612563810653">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612567855365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612563810653" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612567855365" />
     <state x="835" y="392" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612230655287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
