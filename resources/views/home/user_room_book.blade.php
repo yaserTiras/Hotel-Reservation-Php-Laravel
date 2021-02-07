@@ -87,8 +87,12 @@
 
 
 
-                            <div >
 
+                        <div >
+
+@if($datalist->isempty())
+
+    @else
                                 <form action="{{route('user_reservation_add',['id'=>$rs->id,'hotel_id'=>$rs->hotel_id])}}" method="post">
                                     @csrf
                                     <div class="row">
@@ -152,6 +156,7 @@
                                         <button href="#" type="submit" class="btn btn-outline-secondary">Book Now</button>
                                     </div>
                                 </form>
+                            @endif
                             </div>
 
 

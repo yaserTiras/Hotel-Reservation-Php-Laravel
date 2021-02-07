@@ -21,13 +21,9 @@
                     </nav>
                 </div>
                 <div class="col-lg-2">
-                    <!--
-                    *** CUSTOMER MENU ***
-                    _________________________________________________________
-                    -->
-                   @include('home.user_menu')
-                    <!-- /.col-lg-3-->
-                    <!-- *** CUSTOMER MENU END ***-->
+
+                    @include('home.user_menu')
+
                 </div>
                 <div class="col-lg-10">
                     <div class="box">

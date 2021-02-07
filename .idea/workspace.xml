@@ -8,8 +8,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
+    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="Template ayarları">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ShopcartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ShopcartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/my_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/my_profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_room_book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_room_book.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,10 +176,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
-    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -259,6 +266,9 @@
       <workItem from="1612566756440" duration="829000" />
       <workItem from="1612567607256" duration="308000" />
       <workItem from="1612611522225" duration="1179000" />
+      <workItem from="1612630632102" duration="734000" />
+      <workItem from="1612633695775" duration="979000" />
+      <workItem from="1612728333592" duration="9680000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -566,10 +576,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="399" y="407" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1607772645017" />
-    <state x="582" y="181" key="#Inspections" timestamp="1610111833750">
+    <state x="582" y="181" key="#Inspections" timestamp="1612734365647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="181" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610111833750" />
+    <state x="582" y="181" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1612734365647" />
     <state x="452" y="94" key="#Intentions" timestamp="1610811418699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -594,10 +604,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612385103783" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612567843120">
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612630699350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612567843120" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612630699350" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612313565704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -634,14 +644,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611935114520" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1612372000048">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1612633941959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612372000048" />
-    <state x="90" y="154" key="SettingsEditor" timestamp="1612563052798">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612633941959" />
+    <state x="90" y="154" key="SettingsEditor" timestamp="1612630679851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612563052798" />
+    <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612630679851" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612567855365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

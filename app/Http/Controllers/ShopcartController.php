@@ -11,7 +11,7 @@ class ShopcartController extends Controller
 {
     public static function countshopcart()
     {
-        
+
         return Shopcart::where('user_id',Auth::id())->count();
     }
     /**

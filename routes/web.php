@@ -14,7 +14,7 @@ use App\Http\Controllers\Admin\MessageController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -217,5 +217,5 @@ Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logo
 Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    return redirect('home');
 })->name('dashboard');
