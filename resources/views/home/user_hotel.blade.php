@@ -50,6 +50,7 @@
                                 <th>Country</th>
                                 <th>Location</th>
                                 <th>Image</th>
+                                <th>Rooms</th>
                                 <th>Image Gallery</th>
                                 <th>Status</th>
                                 <th>Edit</th>
@@ -77,8 +78,16 @@
                                             <img src="{{ Storage::url($rs->image)}}" height="30" alt="">
                                         @endif
                                     </td>
+                                    <td>
+                                        <a href="{{route('admin_room_add',['hotel_id' => $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')">
+                                            <img src="{{asset('assets/admin/images')}}/gallery.png" height="20">
+                                        </a>
+                                    </td>
+                                    <td><a href="{{route('user_image_add',['hotel_id' => $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')">
+                                            <img src="{{asset('assets/admin/images')}}/gallery.png" height="20">
+                                        </a>
+                                    </td>
 
-                                    <td><a href="{{route('user_image_add',['hotel_id' => $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')"> <img src="{{asset('assets/admin/images')}}/gallery.png" height="20"></a></td>
                                     <td>{{ $rs->status }}</td>
                                     <td><a href="{{route('user_hotel_edit',['id' => $rs->id])}}"> <img src="{{asset('assets/admin/images')}}/edit.png" height="20"></a></td>
                                     <td><a href="{{route('user_hotel_delete',['id' => $rs->id])}}" onclick="return confirm('Are you sure?')"> <img src="{{asset('assets/admin/images')}}/delete.png" height="20"></a></td>

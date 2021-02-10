@@ -1048,6 +1048,8 @@
     </collation>
     <user id="335" parent="1" name="pma">
       <Host>localhost</Host>
+      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE|phpmyadmin:null
+</ObjectGrants>
     </user>
     <user id="336" parent="1" name="root">
       <Host>127.0.0.1</Host>
@@ -1559,7 +1561,6 @@ tokenable_id</ColNames>
     <column id="451" parent="348" name="surname">
       <Position>6</Position>
       <DataType>varchar(50)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="452" parent="348" name="email">
       <Position>7</Position>

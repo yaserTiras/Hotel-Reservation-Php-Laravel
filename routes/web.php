@@ -181,8 +181,7 @@ Route::middleware('auth')->prefix('my_profile')->namespace('user')->group(functi
     Route::prefix('rooms')->group(function () {
 
         Route::get('/bla/{id}', [\App\Http\Controllers\RoomController::class, 'index'])->name('user_rooms');
-        Route::post('store', [\App\Http\Controllers\RoomController::class, 'store'])->name('user_rooms_store');
-        Route::post('update/{id}', [\App\Http\Controllers\RoomController::class, 'update'])->name('user_rooms_update');
+        Route::post('store', [\App\Http\Controllers\RoomController::class, 'store'])->name('user_room_store');
         Route::get('delete/{id}', [\App\Http\Controllers\RoomController::class, 'destroy'])->name('user_rooms_delete');
 
 

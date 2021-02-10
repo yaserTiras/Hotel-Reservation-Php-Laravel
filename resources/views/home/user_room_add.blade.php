@@ -23,7 +23,7 @@
         <div class="block" >
             <div class="title"><strong class="d-block">Hotel: {{$data->title}}</strong><span class="d-block"></span></div>
             <div class="block-body">
-                <form action="{{route('admin_room_store',['hotel_id' => $data->id])}}" method="post" enctype="multipart/form-data">
+                <form action="{{route('user_room_store',['hotel_id' => $data->id])}}" method="post" enctype="multipart/form-data">
                     @csrf
                 <div class="card-body">
 
@@ -88,7 +88,7 @@
                                     @endif
                                 </td>
                                 <td>{{ $rs->status }}</td>
-                                <td><a href="{{route('admin_room_delete',['id' => $rs->id,'hotel_id'=>$data->id ])}}" onclick="return confirm('Are you sure?')">
+                                <td><a href="{{route('user_room_delete',['id' => $rs->id,'hotel_id'=>$data->id ])}}" onclick="return confirm('Are you sure?')">
                                         <img src="{{asset('assets/admin/images')}}/delete.png" height="20"></a></td>
                             </tr>
                         @endforeach

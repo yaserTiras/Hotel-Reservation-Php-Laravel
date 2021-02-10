@@ -30,7 +30,7 @@
 
                     <div class="row products">
                         @foreach ($datalist as $rs)
-                        <div class="col-lg-2 col-md-2">
+                        <div class="col-lg-6">
 
                             <div class="product">
                                 <div class="flip-container">
@@ -43,7 +43,15 @@
                                     <h3>{{$rs->title}}</h3>
                                     <p class="price">
                                         <del></del>
-                                        {{$rs->price}}
+                                        City :{{$rs->city}}
+                                    </p>
+                                    <p class="price">
+                                        <del></del>
+                                        Country :{{$rs->country}}
+                                    </p>
+                                    <p class="price">
+                                        <del></del>
+                                        Starting from :{{$rs->price}}
                                     </p>
                                     <p class="buttons"><a href="{{route('hotel',['id'=>$rs->id])}}" class="btn btn-outline-secondary">Show Details</a></p>
                                 </div>
@@ -55,20 +63,7 @@
                         @endforeach
                     </div>
                 </div>
-                    <div class="pages">
-                        <p class="loadMore"><a href="#" class="btn btn-primary btn-lg"><i class="fa fa-chevron-down"></i> Load more</a></p>
-                        <nav aria-label="Page navigation example" class="d-flex justify-content-center">
-                            <ul class="pagination">
-                                <li class="page-item"><a href="#" aria-label="Previous" class="page-link"><span aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
-                                <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                                <li class="page-item"><a href="#" class="page-link">2</a></li>
-                                <li class="page-item"><a href="#" class="page-link">3</a></li>
-                                <li class="page-item"><a href="#" class="page-link">4</a></li>
-                                <li class="page-item"><a href="#" class="page-link">5</a></li>
-                                <li class="page-item"><a href="#" aria-label="Next" class="page-link"><span aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
-                            </ul>
-                        </nav>
-                    </div>
+
 
 
 

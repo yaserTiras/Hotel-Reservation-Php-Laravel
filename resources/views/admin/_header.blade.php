@@ -4,12 +4,7 @@
         <div class="search-panel">
             <div class="search-inner d-flex align-items-center justify-content-center">
                 <div class="close-btn">Close <i class="fa fa-close"></i></div>
-                <form id="searchForm" action="#">
-                    <div class="form-group">
-                        <input type="search" name="search" placeholder="What are you searching for...">
-                        <button type="submit" class="submit">Search</button>
-                    </div>
-                </form>
+
             </div>
         </div>
         <div class="container-fluid d-flex align-items-center justify-content-between">
@@ -42,7 +37,9 @@
                             <div class="content">   <strong class="d-block">Sara Wood</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">10:30pm</small></div></a><a href="#" class="dropdown-item text-center message"> <strong>See All Messages <i class="fa fa-angle-right"></i></strong></a></div>
                 </div>
                 <!-- Tasks-->
-                <div class="list-inline-item dropdown"><a id="navbarDropdownMenuLink2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link tasks-toggle"><i class="icon-new-file"></i><span class="badge dashbg-3">9</span></a>
+                <div class="list-inline-item dropdown"><a id="navbarDropdownMenuLink2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link tasks-toggle">
+                        <i class="icon-new-file"></i>
+                        <span class="badge dashbg-3">9</span></a>
                     <div aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu tasks-list"><a href="#" class="dropdown-item">
                             <div class="text d-flex justify-content-between"><strong>Task 1</strong><span>40% complete</span></div>
                             <div class="progress">

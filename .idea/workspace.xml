@@ -8,29 +8,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="login rout to home and user role managment">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="fdef5dad-26d8-47e0-bac9-611004a9aa05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Revieew.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/user_room_add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/0384a0b5-dcbe-447f-9252-28422d52b217.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0384a0b5-dcbe-447f-9252-28422d52b217.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoomController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ShopcartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ShopcartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Review.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_30_180118_create_shopcarts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_30_180118_create_shopcarts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_04_202822_create_reviews_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/messages.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/reservation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/reservation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/aboutus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/aboutus.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/room_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/room_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/category_hotels.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/category_hotels.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/category_rooms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/category_rooms.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/faq.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/hotel_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/hotel_detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_reservation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_reservation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/user_room_book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_room_book.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_hotel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_hotel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +182,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
@@ -199,9 +190,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\home" />
       <recent name="C:\php\laravel-otel-rezervasyon\resources\views\admin" />
       <recent name="C:\php\laravel-otel-rezervasyon\resources\views\home" />
-      <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\home" />
       <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\admin" />
       <recent name="C:\Php Projeleri\laravel-otel-rezervasyon\resources\views\layouts" />
     </key>
@@ -287,7 +278,10 @@
       <workItem from="1612822434000" duration="5655000" />
       <workItem from="1612830208613" duration="2633000" />
       <workItem from="1612832975516" duration="860000" />
-      <workItem from="1612879990850" duration="32548000" />
+      <workItem from="1612879990850" duration="37788000" />
+      <workItem from="1612949449560" duration="585000" />
+      <workItem from="1612954671651" duration="1835000" />
+      <workItem from="1612957173307" duration="7662000" />
     </task>
     <task id="LOCAL-00001" summary="index changed">
       <created>1607783386701</created>
@@ -520,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612742343137</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Reservation update and fix">
+      <created>1612920688150</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1612920688150</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +597,8 @@
     <MESSAGE value="faqs and user roles mangement" />
     <MESSAGE value="Template ayarları" />
     <MESSAGE value="login rout to home and user role managment" />
-    <option name="LAST_COMMIT_MESSAGE" value="login rout to home and user role managment" />
+    <MESSAGE value="Reservation update and fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reservation update and fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="407" key="#Composer" timestamp="1607772645017">
@@ -631,10 +633,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="214" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612900404645" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612832257049">
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1612920683103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612832257049" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612920683103" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612833326219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -679,10 +681,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612630679851" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612830893871">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612920697806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612830893871" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612920697806" />
     <state x="801" y="379" width="400" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1612914850872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -695,10 +697,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="277" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612832761894" />
-    <state x="827" y="101" width="648" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1612918210026">
+    <state x="827" y="101" width="648" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1612968443693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="827" y="101" width="648" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612918210026" />
+    <state x="827" y="101" width="648" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612968443693" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612567802514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
