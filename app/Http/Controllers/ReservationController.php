@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Reservation;
+use App\Models\Shopcart;
 use Illuminate\Http\Request;
 use phpDocumentor\Reflection\Types\Null_;
 use Illuminate\Support\Facades\Auth;
@@ -41,7 +42,6 @@ class ReservationController extends Controller
     public function store(Request $request,$id,$hotel_id)
     {
 
-
         $data = new Reservation();
         $data->hotel_id = $hotel_id;
         $data->room_id = $id;
@@ -52,12 +52,16 @@ class ReservationController extends Controller
         $data->surname = $request->input('surname');
         $data->days = (int)$request->input('days');
         $data->email = $request->input('email');
-        $data->phone = (int)$request->input('phone');
+        $data->phone = $request->input('phone');
         $data->note = $request->input('note');
         $data->total = (float)$request->input('total');
         $data->message = $request->input('message');
         $data->save();
-        return redirect()->route('user_shopcart')->with('success','Room Added successfully');
+
+        $data3 = Shopcart::where('user_id',Auth::id());
+        $data3-> delete();
+
+        return redirect()->route('user_shopcart')->with('success','Room Reserved successfully');
     }
 
     /**

@@ -50,11 +50,15 @@
                                         </p>
 
 
-                                        <form action="{{route('user_shopcart_add',['id'=>$rs->id,'hotel_id'=>$rs->hotel_id])}}" method="post">
+                                        <form action="{{route('user_shopcart_add',['id'=>$rs->id,'hotel_id'=>$rs->hotel_id,'hotel_title'=>$hotel->title])}}" method="post">
                                             @csrf
                                             <div class="col-lg-5">
                                                 <strong>Days:</strong><input name="adet" type="number" min="1"  value="1" class="form-control">
 
+                                                        <div class="form-group">
+                                                            <span class="form-label">Check IN</span>
+                                                            <input class="form-control" id="checkin" name="checkin" type="date" required="">
+                                                        </div>
 
                                             <p class="buttons">
                                                 <button href="#" type="submit" class="btn btn-primary navbar-btn">ADD</button>

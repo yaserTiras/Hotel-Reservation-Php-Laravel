@@ -29,8 +29,8 @@
                         </div>
                         <div class="card-body">
                             <ul class="nav nav-pills flex-column">
-                                <li><a href="{{route('home_aboutus')}}" class="nav-link">About Us page</a></li>
-                                <li><a href="{{route('home_contact')}}" class="nav-link">Contact page</a></li>
+                                <li><a href="{{route('home_aboutus')}}" class="nav-link">About Us</a></li>
+                                <li><a href="{{route('home_contact')}}" class="nav-link">Contact Us</a></li>
                                 <li><a href="{{route('home_faq')}}" class="nav-link">FAQ</a></li>
                             </ul>
                         </div>

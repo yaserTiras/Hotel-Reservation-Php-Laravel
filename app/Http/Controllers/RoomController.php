@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Hotel;
 use App\Models\Room;
+use App\Models\Shopcart;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -51,6 +52,7 @@ class RoomController extends Controller
         $data->adet = $request->input('adet');
         $data->status = $request->input('status');
         $data->image = Storage::putFile('images', $request->file('image'));
+
         $data->save();
         return redirect()->route('user_rooms')->with('success','Room Added successfully');
 

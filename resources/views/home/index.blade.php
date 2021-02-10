@@ -31,12 +31,12 @@
                     <div class="product">
                         <div class="flip-container">
                             <div class="flipper">
-                                <div class="front"><a href="detail.html"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
-                                <div class="back"><a href="detail.html"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
+                                <div class="front"><a href="{{ route('user_rooms',$rs->id)}}"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
+                                <div class="back"><a href="{{ route('user_rooms',$rs->id)}}"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
                             </div>
-                        </div><a href="detail.html" class="invisible"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a>
+                        </div><a href="{{ route('user_rooms',$rs->id)}}" class="invisible"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a>
                         <div class="text">
-                            <h3><a href="detail.html">{{$rs->title}}</a></h3>
+                            <h3><a href="{{ route('user_rooms',$rs->id)}}">{{$rs->title}}</a></h3>
                             <p class="price">
                                 <del></del>  {{$rs->price}}
                             </p>
@@ -83,12 +83,12 @@
                     <div class="product">
                         <div class="flip-container">
                             <div class="flipper">
-                                <div class="front"><a href="detail.html"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
-                                <div class="back"><a href="detail.html"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
+                                <div class="front"><a href="{{route('hotel',['id'=>$rs->id])}}"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
+                                <div class="back"><a href="{{route('hotel',['id'=>$rs->id])}}l"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a></div>
                             </div>
-                        </div><a href="detail.html" class="invisible"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a>
+                        </div><a href="{{route('hotel',['id'=>$rs->id])}}" class="invisible"><img src="{{Storage::url($rs->image)}}"  alt="" class="img-fluid"></a>
                         <div class="text">
-                            <h3><a href="detail.html">{{$rs->title}}</a></h3>
+                            <h3><a href="{{route('hotel',['id'=>$rs->id])}}">{{$rs->title}}</a></h3>
                             <p class="price">
                                 <del></del>  {{$rs->price}}
                             </p>

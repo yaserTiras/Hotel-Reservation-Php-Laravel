@@ -30,8 +30,7 @@
                         <th>UserId</th>
                         <th>HotelId</th>
                         <th>Room</th>
-                        <th>Name</th>
-                        <th>SurName</th>
+                        <th>Name & Surname</th>
                         <th>Email</th>
                         <th>Phone</th>
                         <th>Total</th>
@@ -53,9 +52,8 @@
 
                             <td>{{ $rs->user_id }}</td>
                             <td>{{ $rs->hotel_id }}</td>
-                            <td>{{ $rs->room }}</td>
+                            <td>{{ $rs->room_id }}</td>
                             <td>{{ $rs->name }}</td>
-                            <td>{{ $rs->surname }}</td>
                             <td>{{ $rs->email }}</td>
                             <td>{{ $rs->phone }}</td>
                             <td>{{ $rs->total }}</td>

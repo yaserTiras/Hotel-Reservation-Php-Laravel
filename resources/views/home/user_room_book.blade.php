@@ -35,8 +35,9 @@
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th>Rooms</th>
                                 <th>Hotel</th>
+                                <th>Rooms</th>
+                                <th>Image</th>
                                 <th>Rezerved Days</th>
                                 <th>Price</th>
                                 <th>Total Price</th>
@@ -50,16 +51,25 @@
                             @endphp
                             @foreach($datalist as $rs)
 
+
+                                @php
+                                $x=$rs->checkin;
+                                $day=$rs->quantity;
+                                @endphp
                                 <tr>
 
+                                    <td>{{ $rs->hotel_title}}</td>
+                                    <td>
+                                        <a href="{{route('user_rooms',['id' => $rs->hotel_id])}}">
+                                            {{ $rs->room->title }}
+                                        </a>
+                                    </td>
                                     <td>
                                         @if ($rs->room->image)
                                             <img src="{{ Storage::url($rs->room->image)}}" height="30" alt="">
                                         @endif
                                     </td>
-                                    <td><a href="{{route('user_rooms',['id' => $rs->hotel_id])}}">
-                                        {{ $rs->room->title }}</a>
-                                    </td>
+
                                     <td>{{ $rs->quantity }}</td>
                                     <td>{{ $rs->room->price }}</td>
                                     <td>{{ $rs->room->price * $rs->quantity }}</td>
@@ -85,7 +95,7 @@
                         </table>
 
 
-
+                        @include('home.message')
 
 
                         <div >
@@ -93,25 +103,32 @@
 @if($datalist->isempty())
 
     @else
+                                @php
+                                    $Date = $x;
+
+                                    $Checkoutdate=date('Y-m-d H:i:s', strtotime($Date. ' +'.$day.'  days'));
+
+
+                                @endphp
                                 <form action="{{route('user_reservation_add',['id'=>$rs->id,'hotel_id'=>$rs->hotel_id])}}" method="post">
                                     @csrf
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <span class="form-label">Name</span>
-                                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name">
+                                                <span class="form-label">Name & Surname</span>
+                                                <input value="{{Auth::user()->name}}" class="form-control" id="name" name="name" type="text" placeholder="Enter your name">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <span class="form-label">SurName</span>
-                                                <input class="form-control" id="surname" name="surname" type="text" placeholder="Enter your surname">
+                                                <span class="form-label">Days</span>
+                                                <input class="form-control" id="days" name="days" type="text" readonly="readonly" placeholder="{{$totalrooms}}" value="{{$totalrooms}}">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <span class="form-label">Email</span>
-                                                <input class="form-control" id="email" name="email" type="email" placeholder="Enter your email">
+                                                <input value="{{Auth::user()->email}}" class="form-control" id="email" name="email" type="email" placeholder="Enter your email">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
@@ -124,23 +141,35 @@
                                     </div>
                                     <div class="form-group">
                                         <span class="form-label">Phone</span>
-                                        <input class="form-control" id="phone" name="phone" type="text" placeholder="Enter your phone number">
+                                        <input value="{{Auth::user()->phone}}" class="form-control" id="phone" name="phone" type="text" placeholder="Enter your phone number">
                                     </div>
 
                                     <div class="row">
                                         <div class="col-sm-5">
                                             <div class="form-group">
                                                 <span class="form-label">Check IN</span>
-                                                <input class="form-control" id="checkin" name="checkin" type="date" required="">
+                                                <input class="form-control" id="checkin" value="{{$x}}"  name="checkin" type="text" readonly="readonly">
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="form-group">
                                                 <span class="form-label">Check Out</span>
-                                                <input class="form-control" id="checkout" name="checkout" type="date" required="">
+                                                <input class="form-control" id="checkout" name="checkout" value="{{$Checkoutdate}}" type="text"  readonly="readonly">
                                             </div>
                                         </div>
 
+                                        <div class="col-sm-5">
+                                            <div class="form-group">
+                                                <input class="form-control" style="width: 300px" id="cardnumber" type="text"  name="cardnumber" placeholder="Card Number"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-5">
+                                            <div class="form-group">
+                                                <input  style="width: 150px" id="dates" type="text"  name="dates" placeholder="Valid Dates mm/yy"/>
+                                                <input style="width: 150px" id="secret" type="text" name="key" placeholder="Secret Number"/>
+                                            </div>
+                                        </div>
 
                                         <div class="col-sm-7">
                                             <label class="form-label form-label-top" id="note" for="note"> Any Special request? </label>

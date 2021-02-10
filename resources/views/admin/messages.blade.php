@@ -13,19 +13,16 @@
     <div class="container-fluid">
         <ul class="breadcrumb">
             <li class="breadcrumb-item"><a href="{{ route('admin_home')}}">Home</a></li>
-            <li class="breadcrumb-item active"> Hotels        </li>
+            <li class="breadcrumb-item active"> Messages        </li>
         </ul>
-        <div class="card-header">
 
-            <a  href="{{route('admin_hotel_add')}}" type="submit" class="btn btn-primary">Add Hotel</a>
-        </div>
 
     </div>
 
     <div class="col-lg-12">
 
         <div class="block margin-bottom-sm">
-            <div class="title"><strong>Hotel Table</strong></div>
+            <div class="title"><strong>Messages Table</strong></div>
 
             <div class="table-responsive">
                 @include('home.message')

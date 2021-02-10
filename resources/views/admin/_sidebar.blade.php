@@ -47,7 +47,7 @@
         </li>
         <li><a href="{{ route('admin_faq') }}"> <i class="icon-padnote"></i>FAQ </a></li>
         <li><a href="{{ route('admin_users') }}"> <i class="icon-padnote"></i>Users </a></li>
-        <li><a href="{{ route('admin_login') }}"> <i class="icon-logout"></i>Login page </a></li>
+        <li><a href="{{ route('admin_logout') }}"> <i class="icon-logout"></i>Logout </a></li>
 
 
 </nav>

@@ -18,6 +18,8 @@ class CreateShopcartsTable extends Migration
             $table->id()->autoIncrement();
             $table->integer('user_id');
             $table->integer('room_id');
+            $table->string('hotel_title');
+            $table->datetime('checkin');
             $table->integer('quantity');
             $table->timestamps();
         });

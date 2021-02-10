@@ -193,7 +193,7 @@ Route::middleware('auth')->prefix('my_profile')->namespace('user')->group(functi
     Route::prefix('shopcart')->group(function () {
         //route assigned name "admin.users"
         Route::get('/', [\App\Http\Controllers\ShopcartController::class, 'index'])->name('user_shopcart');
-        Route::post('store/{id}/{hotel_id}', [\App\Http\Controllers\ShopcartController::class, 'store'])->name('user_shopcart_add');
+        Route::post('store/{id}/{hotel_id}/{hotel_title}', [\App\Http\Controllers\ShopcartController::class, 'store'])->name('user_shopcart_add');
         Route::post('update/{id}', [\App\Http\Controllers\ShopcartController::class, 'update'])->name('user_shopcart_update');
         Route::get('delete/{id}', [\App\Http\Controllers\ShopcartController::class, 'destroy'])->name('user_shopcart_delete');
 
@@ -217,5 +217,5 @@ Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logo
 Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return redirect('home');
+    return view('dashboard');
 })->name('dashboard');

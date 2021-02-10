@@ -161,8 +161,8 @@
                                                 <p class="goToDescription"><a href="#details" class="scroll-to">Scroll to hotel details, </a></p>
 
                                                 <p class="price">starting from {{$data->price}}</p>
-                                                <p class="text-center buttons"><a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Book A Room</a>
-                                                <a href="{{ route('user_rooms',$data->id)}}" class="btn btn-primary"> Show Rooms</a></p>
+                                                <p class="text-center buttons"><a href="{{ route('user_rooms',$data->id)}}" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Book A Room</a>
+
                                             </div>
 
                                             <div data-slider-id="1" class="owl-thumbs">

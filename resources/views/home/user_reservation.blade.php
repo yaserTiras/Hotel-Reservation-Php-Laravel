@@ -38,8 +38,7 @@
                             <thead>
                             <tr>
                                 <th>Room_id</th>
-                                <th>Name</th>
-                                <th>SurName</th>
+                                <th>Name & Surname</th>
                                 <th>Email</th>
                                 <th>Phone</th>
                                 <th>Total</th>
@@ -59,7 +58,6 @@
                                 <tr>
                                     <th scope="row">{{ $rs->room_id }}</th>
                                     <td>{{ $rs->name }}</td>
-                                    <td>{{ $rs->surname }}</td>
                                     <td>{{ $rs->email }}</td>
                                     <td>{{ $rs->phone }}</td>
                                     <td>{{ $rs->total }}</td>

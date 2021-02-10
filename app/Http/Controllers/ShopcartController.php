@@ -14,6 +14,7 @@ class ShopcartController extends Controller
 
         return Shopcart::where('user_id',Auth::id())->count();
     }
+
     /**
      * Display a listing of the resource.
      *
@@ -22,7 +23,6 @@ class ShopcartController extends Controller
     public function index()
     {
         $datalist=Shopcart::where('user_id',Auth::id())->get();
-
         return view('home.user_room_book',['datalist'=>$datalist]);
     }
 
@@ -42,7 +42,7 @@ class ShopcartController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request,$id,$hotel_id)
+    public function store(Request $request,$id,$hotel_id,$hotel_title)
     {
         $data=Shopcart::where('hotel_id',$hotel_id)->where('room_id',$id)->where('user_id',Auth::id())->first();
 
@@ -56,12 +56,13 @@ class ShopcartController extends Controller
                 $data = new Shopcart;
                 $data->hotel_id = $hotel_id;
                 $data->room_id = $id;
+                $data->checkin =$request->input('checkin');
+                $data->hotel_title = $hotel_title;
                 $data->user_id = Auth::id();
                 $data->quantity = $request->input('adet');
            }
-
-
         $data->save();
+
         return redirect()->back()->with('success','Room Added successfully');
     }
 
